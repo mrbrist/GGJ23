@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VegetableController : MonoBehaviour
+public class GrowController : MonoBehaviour
 {
     [Header("Sprite Renderer")]
     public SpriteRenderer sr;
@@ -44,7 +44,7 @@ public class VegetableController : MonoBehaviour
         // Change apperance
         if (growthStage != -1)
         {
-            sr.sprite = vg.sprites[growthStage];
+            sr.sprite = vg.growthSprites[growthStage];
         }
     }
 

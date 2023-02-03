@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 1217191569}
-  vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
+  vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
 --- !u!4 &759769835
 Transform:
   m_ObjectHideFlags: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 1043583039}
-  vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
+  vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
 --- !u!61 &1135980618
 BoxCollider2D:
   m_ObjectHideFlags: 0

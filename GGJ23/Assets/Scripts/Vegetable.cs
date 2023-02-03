@@ -7,7 +7,9 @@ public class Vegetable : ScriptableObject
 {
     public new string name;
 
-    public Sprite[] sprites;
+    public Sprite seed;
+    public Sprite finalProduct;
+    public Sprite[] growthSprites;
 
     public bool isGrowing = false;
 

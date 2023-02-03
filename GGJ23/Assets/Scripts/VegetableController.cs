@@ -4,50 +4,53 @@ using UnityEngine;
 
 public class VegetableController : MonoBehaviour
 {
-    [Header("TO BE REPLACED")]
+    [Header("Sprite Renderer")]
     public SpriteRenderer sr;
     [Header("Vegatable Scritable Object")]
     public Vegetable vg;
 
     private float timer;
 
+    private bool isGrowing;
+    private int growthStage;
+    private float growthTime;
+    private int maxSize;
+
+    private void Start()
+    {
+        isGrowing = vg.isGrowing;
+        growthStage = vg.growthStage;
+        growthTime = vg.growthTime;
+        maxSize = vg.maxSize;
+    }
+
     private void Update()
     {
         timer += Time.deltaTime;
 
         // Grow plant
-        if (timer >= vg.growthTime && vg.isGrowing)
+        if (timer >= growthTime && isGrowing)
         {
             timer = 0f;
-            vg.growthStage++;
+            growthStage++;
 
-            if (vg.growthStage >= vg.maxSize)
+            if (growthStage >= maxSize)
             {
-                vg.growthStage = vg.maxSize;
-                vg.isGrowing = false;
+                growthStage = maxSize;
+                isGrowing = false;
             }
         }
 
         // Change apperance
-        switch (vg.growthStage)
+        if (growthStage != -1)
         {
-            case 0:
-                sr.color = new Color(255, 0, 0, 255);
-                break;
-            case 2:
-                sr.color = new Color(255, 188, 0, 255);
-                break;
-            case 4:
-                sr.color = new Color(0, 255, 0, 255);
-                break;
-            default:
-                break;
+            sr.sprite = vg.sprites[growthStage];
         }
     }
 
     private void OnMouseDown()
     {
-        vg.isGrowing = true;
-        vg.growthStage = 0;
+        isGrowing = true;
+        growthStage = 0;
     }
 }

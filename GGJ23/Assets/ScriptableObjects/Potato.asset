@@ -10,9 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4da2d805288857e4fad71a4fb081893f, type: 3}
-  m_Name: Carrot
+  m_Name: Potato
   m_EditorClassIdentifier: 
-  name: Carrot
+  name: Potato
+  sprites:
+  - {fileID: 280371184, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
+  - {fileID: 1284789625, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
+  - {fileID: 855214382, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
+  - {fileID: -273497885, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
+  - {fileID: 443396954, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   isGrowing: 0
   growthStage: -1
   growthTime: 3

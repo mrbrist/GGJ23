@@ -9,6 +9,8 @@ public class GrowController : MonoBehaviour
     [Header("Vegatable Scritable Object")]
     public Vegetable vg;
 
+    public Sprite emptyPlot;
+
     private float timer;
 
     private bool isGrowing;
@@ -45,6 +47,9 @@ public class GrowController : MonoBehaviour
         if (growthStage != -1)
         {
             sr.sprite = vg.growthSprites[growthStage];
+        } else
+        {
+            sr.sprite = emptyPlot;
         }
     }
 

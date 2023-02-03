@@ -418,14 +418,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135980615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4da2d805288857e4fad71a4fb081893f, type: 3}
+  m_Script: {fileID: 11500000, guid: 25c4c75971d60a94885da2ba991373ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 1043583039}
-  isGrowing: 0
-  growthStage: -1
-  growthTime: 3
-  maxSize: 4
+  vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
 --- !u!61 &1135980618
 BoxCollider2D:
   m_ObjectHideFlags: 0

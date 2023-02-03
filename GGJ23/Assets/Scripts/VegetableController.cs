@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class VegetableController : MonoBehaviour
 {
+    [Header("TO BE REPLACED")]
     public SpriteRenderer sr;
-    public bool isGrowing = false;
-
-    [SerializeField] private int growthStage;
-    [SerializeField] private float growthTime;
-    [SerializeField] private int maxSize;
+    [Header("Vegatable Scritable Object")]
+    public Vegetable vg;
 
     private float timer;
 
@@ -18,20 +16,20 @@ public class VegetableController : MonoBehaviour
         timer += Time.deltaTime;
 
         // Grow plant
-        if (timer >= growthTime && isGrowing)
+        if (timer >= vg.growthTime && vg.isGrowing)
         {
             timer = 0f;
-            growthStage++;
+            vg.growthStage++;
 
-            if (growthStage >= maxSize)
+            if (vg.growthStage >= vg.maxSize)
             {
-                growthStage = maxSize;
-                isGrowing = false;
+                vg.growthStage = vg.maxSize;
+                vg.isGrowing = false;
             }
         }
 
         // Change apperance
-        switch (growthStage)
+        switch (vg.growthStage)
         {
             case 0:
                 sr.color = new Color(255, 0, 0, 255);
@@ -49,7 +47,7 @@ public class VegetableController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        isGrowing = true;
-        growthStage = 0;
+        vg.isGrowing = true;
+        vg.growthStage = 0;
     }
 }

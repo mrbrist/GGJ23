@@ -50,7 +50,10 @@ public class GrowController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        isGrowing = true;
-        growthStage = 0;
+        if (!isGrowing)
+        {
+            isGrowing = true;
+            growthStage = 0;
+        }
     }
 }

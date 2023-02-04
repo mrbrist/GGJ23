@@ -30,7 +30,7 @@ public class CharacterController : MonoBehaviour
     {
         if (collision.tag == "VegetableDrop")
         {
-            print("DROP");
+            collision.GetComponent<DropController>().isMovingToPlayer = true;
         }
     }
 }

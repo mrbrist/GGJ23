@@ -65,7 +65,6 @@ public class GrowController : MonoBehaviour
     {
         yield return new WaitForSeconds(growthTime);
         sr.sprite = emptyPlot;
-        playerStats.money += vg.worthPer;
         DropItems();
     }
 
@@ -73,6 +72,9 @@ public class GrowController : MonoBehaviour
     {
         GameObject go = new GameObject(vg.name + "Drop");
         go.tag = "VegetableDrop";
+        DropController dc = go.AddComponent<DropController>();
+        dc.worth = vg.worthPer;
+
         CircleCollider2D col = go.AddComponent<CircleCollider2D>();
         col.isTrigger = true;
         SpriteRenderer ren = go.AddComponent<SpriteRenderer>();

@@ -72,6 +72,13 @@ public class GrowController : MonoBehaviour
     {
         if (!isGrowing)
         {
+            vg = playerStats.activeVegetable;
+
+            isGrowing = vg.isGrowing;
+            growthStage = vg.growthStage;
+            growthTime = vg.growthTime;
+            maxSize = vg.maxSize;
+
             isGrowing = true;
             growthStage = 0;
         }

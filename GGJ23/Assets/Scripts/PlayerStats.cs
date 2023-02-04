@@ -5,4 +5,6 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public int money = 0;
+
+    public Vegetable activeVegetable;
 }

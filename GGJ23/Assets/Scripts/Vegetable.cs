@@ -11,6 +11,8 @@ public class Vegetable : ScriptableObject
     public Sprite finalProduct;
     public Sprite[] growthSprites;
 
+    public int worthPer;
+
     public bool isGrowing = false;
 
     public int growthStage;

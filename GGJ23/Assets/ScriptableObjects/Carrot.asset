@@ -21,6 +21,7 @@ MonoBehaviour:
   - {fileID: -1445576995, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: -280648775, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: 960610759, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
+  worthPer: 5
   isGrowing: 0
   growthStage: -1
   growthTime: 2

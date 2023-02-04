@@ -65,7 +65,7 @@ public class GrowController : MonoBehaviour
     {
         yield return new WaitForSeconds(growthTime);
         sr.sprite = emptyPlot;
-        playerStats.money += 10;
+        playerStats.money += vg.worthPer;
     }
 
     private void OnMouseDown()

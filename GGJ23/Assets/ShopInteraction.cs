@@ -20,26 +20,37 @@ public class ShopInteraction : MonoBehaviour
     {
         if(inCollision)
         {
-            if (Input.GetKeyDown(KeyCode.E) && !MenuActive)
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                ShopUI.SetActive(true);
-                Player.GetComponent<CharacterController>().speed = 0;
-            }
-            else if (Input.GetKeyDown(KeyCode.E) && MenuActive)
-            {
-                ShopUI.SetActive(false);
-                Player.GetComponent<CharacterController>().speed = 10;
+                if (!MenuActive)
+                {
+                    MenuActive = true;
+                    ShopUI.SetActive(true);
+                    Player.GetComponent<CharacterController>().speed = 0;
+                } else
+                {
+                    MenuActive = false;
+                    ShopUI.SetActive(false);
+                    Player.GetComponent<CharacterController>().speed = 10;
+                }
+                
             }
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        inCollision = true;
+        if (other.tag == "Player")
+        {
+            inCollision = true;
+        }
     }
 
-    void OnTriggerExit(Collider other)
+    void OnTriggerExit2D(Collider2D other)
     {
-        inCollision = false;
+        if (other.tag == "Player")
+        {
+            inCollision = false;
+        }
     }
 }

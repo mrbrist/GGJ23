@@ -9,6 +9,8 @@ public class GrowController : MonoBehaviour
     [Header("Vegatable Scritable Object")]
     public Vegetable vg;
 
+    private PlayerStats playerStats;
+
     public Sprite emptyPlot;
 
     private float timer;
@@ -24,6 +26,8 @@ public class GrowController : MonoBehaviour
         growthStage = vg.growthStage;
         growthTime = vg.growthTime;
         maxSize = vg.maxSize;
+
+        playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStats>();
     }
 
     private void Update()
@@ -39,18 +43,29 @@ public class GrowController : MonoBehaviour
             if (growthStage >= maxSize)
             {
                 growthStage = maxSize;
+                sr.sprite = vg.growthSprites[growthStage];
                 isGrowing = false;
+                StartCoroutine(FinishGrowing());
             }
         }
 
         // Change apperance
         if (growthStage != -1)
         {
-            sr.sprite = vg.growthSprites[growthStage];
+            if (isGrowing)
+            {
+                sr.sprite = vg.growthSprites[growthStage];
+            }
         } else
         {
             sr.sprite = emptyPlot;
         }
+    }
+    IEnumerator FinishGrowing()
+    {
+        yield return new WaitForSeconds(growthTime);
+        sr.sprite = emptyPlot;
+        playerStats.money += 10;
     }
 
     private void OnMouseDown()

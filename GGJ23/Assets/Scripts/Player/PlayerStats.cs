@@ -9,9 +9,4 @@ public class PlayerStats : MonoBehaviour
     public float interactRange;
 
     public Vegetable activeVegetable;
-
-    private void Update()
-    {
-        
-    }
 }

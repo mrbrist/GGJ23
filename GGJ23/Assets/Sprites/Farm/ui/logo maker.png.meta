@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +105,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: logo maker_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 42
+        width: 149
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8de3fe094405e4b86ee958abb0555e
+      internalID: 230854253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 119
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051165164d77a2740a0d1e07905107b2
+      internalID: 909297229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 115
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8c0f4ba36c77e4fb8273a51feb0eeb
+      internalID: -1945220801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 119
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811573d683581e34092de509aed42042
+      internalID: -2106336838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 115
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91a418eae2d3064293b2adcdd1a4d7f
+      internalID: -1335615157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 117
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bd156eae4bc1445a5689814df1c224
+      internalID: -935825789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 112
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb1390cd371df845ae092d377b67118
+      internalID: 1889191760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 113
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbe4ee96e99ea14e80932d74928e704
+      internalID: -1658153535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 81
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342390c3ee0b27d449b5c44f297c894b
+      internalID: -1927781121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074b24adf253934889f76771263a7ab
+      internalID: -40575048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd62051eb96582429a824b62ef6467a
+      internalID: -1684396743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 80
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb57368bf26734192cbab00b2eef3f
+      internalID: 531542249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 81
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e97922c158ff4ba030ef09559dd76
+      internalID: 561382485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 83
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93796ee48db3923438aef018bce88d97
+      internalID: 1370986265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 82
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d915372499b3e54488546eefdbe2b51
+      internalID: -688546001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_15
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 80
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b8ec94d193a2c499df655aa595e7f4
+      internalID: 79349768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 82
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0850c0c28e6d29d498d7d3b0edf24639
+      internalID: -1567474285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 50
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4fc14e1bef8fb48abb8bf1514fc905
+      internalID: -1340694113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c59c3ed02c2544989e179365eabe83
+      internalID: -1468282423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 49
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb6dc26c12f97240bc43ec76e70a65b
+      internalID: -720383378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 52
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e48e8f9ee27de49bbda9915c21cf4d
+      internalID: -967876825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 53
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1adc6f0407a640825119a88730e1f
+      internalID: 2098264898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 50
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29722464378b56849bb1d7a054465d2e
+      internalID: 466225161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 52
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f081fac0a2499954d98d5696319b31f5
+      internalID: -1633546821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_24
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 19
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7a46ac723869d49a5e34d1b04bf2e8
+      internalID: -2134443124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 20
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3dd905e84e934da8a7a61f6394977
+      internalID: 1117793732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 22
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024da2b919cf3ba468ff981dd246a29a
+      internalID: 374379922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 19
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0553732d67754641b533bdf7eb58c74
+      internalID: -2119281956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_28
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 22
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be15302670e59374baca376196604906
+      internalID: 253494894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logo maker_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 36
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad97ca5cd0ce54cac6bea377ba2820
+      internalID: 1595910303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +746,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      logo maker_3: -2106336838
+      logo maker_6: 1889191760
+      logo maker_27: -2119281956
+      logo maker_22: 466225161
+      logo maker_24: -2134443124
+      logo maker_5: -935825789
+      logo maker_20: -967876825
+      logo maker_8: -1927781121
+      logo maker_18: -1468282423
+      logo maker_12: 561382485
+      logo maker_16: -1567474285
+      logo maker_13: 1370986265
+      logo maker_15: 79349768
+      logo maker_17: -1340694113
+      logo maker_1: 909297229
+      logo maker_10: -1684396743
+      logo maker_25: 1117793732
+      logo maker_4: -1335615157
+      logo maker_23: -1633546821
+      logo maker_29: 1595910303
+      logo maker_0: 230854253
+      logo maker_28: 253494894
+      logo maker_9: -40575048
+      logo maker_21: 2098264898
+      logo maker_14: -688546001
+      logo maker_26: 374379922
+      logo maker_2: -1945220801
+      logo maker_19: -720383378
+      logo maker_11: 531542249
+      logo maker_7: -1658153535
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -105,7 +105,1834 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: inventory_chopped_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 293
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfc4b691acb78847af21bfcd3b4eb40
+      internalID: -399605586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 226
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80adc4cfed566f04f83678915a1381a1
+      internalID: -192301608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 272
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44cb7659ce6914ba134717addfb098
+      internalID: -1286470446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 182
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b1ebad5a9b5e947a4c90d70f2d049d
+      internalID: -17979165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 166
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0a33c637c02b249be11372f1787345
+      internalID: 306280079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 130
+        width: 192
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f13bad2ecd3772478e68f6f969b7f82
+      internalID: -751747277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 147
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5c30f7ad81c34bb0e582725db2280
+      internalID: 1136172830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 153
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8117663a3727fb4ebdc3f7dbe8c69b8
+      internalID: 1486540113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 147
+        width: 56
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f96a09f192bdf45892986dc6770635
+      internalID: -953908812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_9
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 130
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73283244b76e10e48b4707433ef0c35e
+      internalID: -2006414645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 130
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4c4d62116fdf44bd9feeb70596d43
+      internalID: -1842018249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 130
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aaf97a96c3b9740b59fa06f19e8aa0
+      internalID: -1814121467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 130
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d691bb321fb7a4489d08191796a74b
+      internalID: 1289762196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 64
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8596a767e8c4b841999eb79edf816de
+      internalID: -2086635297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 64
+        width: 143
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb6ae2c9b745d6439fe1a60a5c6f3a9
+      internalID: -974738082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 112
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc743d76f62c9428fa04c22fe328cc
+      internalID: 358902930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_16
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a8baa443f002d4aa36c76bdb4efba8
+      internalID: 236406770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18783627cfd78984d8734bfd28633da1
+      internalID: -1064972046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 129
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86198259bcfed904aa3917642530938e
+      internalID: 2092522235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 96
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a12a6e544b25141a05287823d13939
+      internalID: 372972937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07482202b26bf3a489624d0661759c11
+      internalID: -549168499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_21
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 128
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352429a491b6bb40b5ef317216aafb3
+      internalID: -1960170798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_22
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440feed3d9b14345af1042215fcbb14
+      internalID: -22528032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd109847f750e84390899d0c908ac2d
+      internalID: 1471539106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d9dac869e4eab45ae078fc2de07019
+      internalID: 1213868343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1348335e874849b23c72885c657c8
+      internalID: 95589223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bded35cb8b448847932095df74ef31b
+      internalID: 1330629549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 114
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc214e022d4215b479bf248807d11dce
+      internalID: -1573940808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065e2dbe2c7a7c24888f80e3dcaf6c9e
+      internalID: -1543241401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 113
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb86cbb2c881424489d9605f4c7b80ef
+      internalID: 648539574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 81
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d803d855b52774a4db4dfe2130b730eb
+      internalID: 1861395720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_31
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 112
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2534917a99df5f74eaba3c54263e6e03
+      internalID: -1013266425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 112
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c5a1a325df5c42bfcd1f4e0f2e698
+      internalID: 1216479940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_33
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 100
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9d77b20f8e57847906fd256eb5a643
+      internalID: -152428823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_34
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 100
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd425475446c914dab26acb0c70ddd0
+      internalID: 267724450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 101
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd04c93546760e4782aa02eca9518aa
+      internalID: -1019237224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 98
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8666ceb9cb8d3468c8c7e009ba1ff3
+      internalID: -1844707121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_37
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 98
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3551d3901206dac428c25c8099f65ff7
+      internalID: -673099787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_38
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ba5118bb53a642aeeb61d7bea26a3
+      internalID: 2061355042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8537f5e7507d26740a06dc819c3618a6
+      internalID: 1119064940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 64
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1cfa48a8b3ae45bea7bd79d756e60
+      internalID: -2123639220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_41
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 64
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3484588c58254da94e61be69cad67
+      internalID: 1425550942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91967bf45cd94ca4e9966e071a2a2312
+      internalID: -562908505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_43
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8b533e2057434f8624191a8d3e994
+      internalID: 1227495740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_44
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75abc0deae3d834cb968e3a0e935672
+      internalID: 946539277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_45
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b84b888da8892f499b765045bfd01d1
+      internalID: 86191907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_46
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474292009b846b46a60eaee32eedf59
+      internalID: -918075841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_47
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efd299ceebf1674c8faf6cace55bacd
+      internalID: 921967690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_48
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 49
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a4f2590fd7e124d8d6bc62bd43cad3
+      internalID: -890948737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_49
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 64
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e969f93b613daa4085aa70f6b5f4a05
+      internalID: -587090452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 82
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495c15df35002524fb25d7d6a13125a9
+      internalID: 2125713118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 82
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b192c729920664fbf68d8b68935a54
+      internalID: -222321276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_52
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dd274cff3a49f499e3a9210e2efc27
+      internalID: -1590334683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_53
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 81
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bcefa4c52d6e84dace1573550f4f61
+      internalID: -2083255060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_54
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 81
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0fe9940f8fbef43a7649503bf00177
+      internalID: -2023716261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_55
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 81
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fdc186b975eba48b652c1fc0d19379
+      internalID: 507303940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_56
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871ce0859132f8c40b86b03139a8a133
+      internalID: -160498422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_57
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 80
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac3554515969f4790d3dba9b5cbdf6
+      internalID: -991126280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fc3eb8f13777843aa4db7245bf8159
+      internalID: -1351246291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29272e6250c6201479b1d05459274271
+      internalID: 1323815089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_60
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 64
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ad5fbc46308a7479e6754b66facd43
+      internalID: 254483569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_61
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6becd3f8cbcef459ca9b1f4932906e
+      internalID: 597107225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_62
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 66
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43a9f1c7dc5b0244928b09a17522446
+      internalID: -1204854226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 68
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca06a508084bb409ca7b8a341b3b2d
+      internalID: 794448347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_64
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 66
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede81aa45b8785449b8ca4a1e8c22419
+      internalID: -2011628520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_65
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f780baec9e8866408c313f594eb152b
+      internalID: 30974026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 51
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1a83ae88ef2364f9c193575c6aceca
+      internalID: 709543861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5567d1ed1baa3494d9f092c2ad6cf8b9
+      internalID: -251503869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_68
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 48
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd758fc95200a34b832e8261f004a15
+      internalID: 154059686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 16
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9122179347661042b84bb64fc43de84
+      internalID: 107863384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_70
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8225157ce9fd8a4c80c761c87ba8eef
+      internalID: 1857820586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfce813cc84e17349afe3f32c6162714
+      internalID: -17014540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_72
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc5e7b97e240d14bb3cdb34bc2d64ba
+      internalID: -1198048361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_73
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2828332bbdca3844f8b2e9f3b14aed6f
+      internalID: -1081481663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_74
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e498b9dca1db754fb91ebb1f71e1c8f
+      internalID: 1973662738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d2dc22a63cd5b4cb42ca90b14f7150
+      internalID: 1299272472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_76
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16701dc1f8f5cf848acfc05c666186f8
+      internalID: 1528363980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_77
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34096fbb73d40f64382e59338ce8ef99
+      internalID: 577025471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_78
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2633b3822776c49a79a74506e45ec3
+      internalID: 623758819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_79
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804f99b3a4f117649ad8056f3e36e8ae
+      internalID: -1651356524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_80
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfeacf5f22e5594c9cb5c4e5f680eac
+      internalID: -1538056191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_81
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d655f906350f54c96cc31a7ce59f68
+      internalID: -299564829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_82
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b360e41c3139a08449675864f19d667f
+      internalID: 814535639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_83
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a976703d8f0ff4596dcbfa44f4ece2
+      internalID: 16694379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_84
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4d13d9f7fded546bccfeccd6a37d24
+      internalID: -2124081800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_85
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8183a459fef02cd45aa7675c77654667
+      internalID: 123248129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_chopped_86
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ef2007271229144a9941c8415665b6
+      internalID: -1513824201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -116,7 +1943,94 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inventory_chopped_29: 648539574
+      inventory_chopped_25: 95589223
+      inventory_chopped_3: -17979165
+      inventory_chopped_46: -918075841
+      inventory_chopped_22: -22528032
+      inventory_chopped_84: -2124081800
+      inventory_chopped_73: -1081481663
+      inventory_chopped_68: 154059686
+      inventory_chopped_17: -1064972046
+      inventory_chopped_77: 577025471
+      inventory_chopped_1: -192301608
+      inventory_chopped_74: 1973662738
+      inventory_chopped_36: -1844707121
+      inventory_chopped_23: 1471539106
+      inventory_chopped_20: -549168499
+      inventory_chopped_10: -1842018249
+      inventory_chopped_4: 306280079
+      inventory_chopped_83: 16694379
+      inventory_chopped_12: 1289762196
+      inventory_chopped_44: 946539277
+      inventory_chopped_0: -399605586
+      inventory_chopped_67: -251503869
+      inventory_chopped_69: 107863384
+      inventory_chopped_63: 794448347
+      inventory_chopped_43: 1227495740
+      inventory_chopped_57: -991126280
+      inventory_chopped_35: -1019237224
+      inventory_chopped_45: 86191907
+      inventory_chopped_64: -2011628520
+      inventory_chopped_82: 814535639
+      inventory_chopped_54: -2023716261
+      inventory_chopped_26: 1330629549
+      inventory_chopped_16: 236406770
+      inventory_chopped_51: -222321276
+      inventory_chopped_41: 1425550942
+      inventory_chopped_60: 254483569
+      inventory_chopped_33: -152428823
+      inventory_chopped_11: -1814121467
+      inventory_chopped_76: 1528363980
+      inventory_chopped_31: -1013266425
+      inventory_chopped_71: -17014540
+      inventory_chopped_37: -673099787
+      inventory_chopped_9: -2006414645
+      inventory_chopped_52: -1590334683
+      inventory_chopped_62: -1204854226
+      inventory_chopped_70: 1857820586
+      inventory_chopped_78: 623758819
+      inventory_chopped_14: -974738082
+      inventory_chopped_13: -2086635297
+      inventory_chopped_56: -160498422
+      inventory_chopped_40: -2123639220
+      inventory_chopped_7: 1486540113
+      inventory_chopped_5: -751747277
+      inventory_chopped_8: -953908812
+      inventory_chopped_80: -1538056191
+      inventory_chopped_2: -1286470446
+      inventory_chopped_15: 358902930
+      inventory_chopped_55: 507303940
+      inventory_chopped_66: 709543861
+      inventory_chopped_21: -1960170798
+      inventory_chopped_48: -890948737
+      inventory_chopped_61: 597107225
+      inventory_chopped_75: 1299272472
+      inventory_chopped_28: -1543241401
+      inventory_chopped_81: -299564829
+      inventory_chopped_79: -1651356524
+      inventory_chopped_86: -1513824201
+      inventory_chopped_39: 1119064940
+      inventory_chopped_18: 2092522235
+      inventory_chopped_47: 921967690
+      inventory_chopped_59: 1323815089
+      inventory_chopped_32: 1216479940
+      inventory_chopped_72: -1198048361
+      inventory_chopped_50: 2125713118
+      inventory_chopped_85: 123248129
+      inventory_chopped_53: -2083255060
+      inventory_chopped_38: 2061355042
+      inventory_chopped_58: -1351246291
+      inventory_chopped_30: 1861395720
+      inventory_chopped_6: 1136172830
+      inventory_chopped_42: -562908505
+      inventory_chopped_34: 267724450
+      inventory_chopped_19: 372972937
+      inventory_chopped_49: -587090452
+      inventory_chopped_27: -1573940808
+      inventory_chopped_24: 1213868343
+      inventory_chopped_65: 30974026
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

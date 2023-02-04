@@ -20,6 +20,10 @@ public class GrowController : MonoBehaviour
     private float growthTime;
     private int maxSize;
 
+    private float interactRange;
+    public float playerDistance;
+    public bool interactable;
+
     private void Start()
     {
         isGrowing = vg.isGrowing;
@@ -28,6 +32,21 @@ public class GrowController : MonoBehaviour
         maxSize = vg.maxSize;
 
         playerStats = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStats>();
+        interactRange = playerStats.interactRange;
+    }
+
+    private void FixedUpdate()
+    {
+        playerDistance = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
+
+        if (playerDistance <= interactRange)
+        {
+            interactable = true;
+        }
+        else
+        {
+            interactable = false;
+        }
     }
 
     private void Update()
@@ -37,6 +56,8 @@ public class GrowController : MonoBehaviour
         // Grow plant
         if (timer >= growthTime && isGrowing)
         {
+            sr.color = new Color(255, 255, 255, 255);
+
             timer = 0f;
             growthStage++;
 
@@ -79,6 +100,7 @@ public class GrowController : MonoBehaviour
         col.isTrigger = true;
         SpriteRenderer ren = go.AddComponent<SpriteRenderer>();
         ren.sprite = vg.finalProduct;
+        ren.sortingOrder = 1;
         go.transform.position = new Vector3(transform.position.x, transform.position.y, -2);
 
         Vector2 dropDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
@@ -90,7 +112,7 @@ public class GrowController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!isGrowing)
+        if (!isGrowing && interactable)
         {
             vg = playerStats.activeVegetable;
 

@@ -1281,6 +1281,8 @@ MonoBehaviour:
   sr: {fileID: 80289324}
   vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!4 &707155970
 Transform:
   m_ObjectHideFlags: 0
@@ -1289,7 +1291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707155967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -0.47, z: 0}
+  m_LocalPosition: {x: -4, y: -0.47, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1509,6 +1511,8 @@ MonoBehaviour:
   sr: {fileID: 1709794590}
   vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!4 &755628089
 Transform:
   m_ObjectHideFlags: 0
@@ -1517,7 +1521,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755628086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -2.6, z: 0}
+  m_LocalPosition: {x: -4, y: -2.6, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1551,7 +1555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757404361}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.52, y: -0.98, z: 0.73706657}
+  m_LocalPosition: {x: -0.52, y: -0.98, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1600,6 +1604,8 @@ MonoBehaviour:
   sr: {fileID: 1614382711}
   vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &759769832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1665,8 @@ MonoBehaviour:
   sr: {fileID: 1217191569}
   vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!4 &759769835
 Transform:
   m_ObjectHideFlags: 0
@@ -1667,7 +1675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759769832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1.53, z: 0}
+  m_LocalPosition: {x: -4, y: -1.53, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1855,7 +1863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851423064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.52, y: 0.06, z: 0.73706657}
+  m_LocalPosition: {x: -0.52, y: 0.06, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1904,6 +1912,8 @@ MonoBehaviour:
   sr: {fileID: 1090086066}
   vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &906443781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +2019,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 2097412995, guid: a97f379ac090ecf4ca7a8d8a3569f97d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2258,7 +2268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088969100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.46, y: 0.05, z: 0.73706657}
+  m_LocalPosition: {x: 0.46, y: 0.05, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2307,6 +2317,8 @@ MonoBehaviour:
   sr: {fileID: 1163835574}
   vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &1090086064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,7 +2505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135980615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0.6, z: 0}
+  m_LocalPosition: {x: -4, y: 0.6, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2516,6 +2528,8 @@ MonoBehaviour:
   sr: {fileID: 1043583039}
   vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!61 &1135980618
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3411,7 +3425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519375588}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.46, y: 1.08, z: 0.73706657}
+  m_LocalPosition: {x: 0.46, y: 1.08, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3460,6 +3474,8 @@ MonoBehaviour:
   sr: {fileID: 2010430801}
   vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &1552206446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,7 +4012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753373944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 1.08, z: 0.73706657}
+  m_LocalPosition: {x: -0.55, y: 1.08, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4045,6 +4061,8 @@ MonoBehaviour:
   sr: {fileID: 1789152283}
   vg: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &1766930795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,7 +4165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769509312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.46, y: -0.98, z: 0.73706657}
+  m_LocalPosition: {x: 0.46, y: -0.98, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4196,6 +4214,8 @@ MonoBehaviour:
   sr: {fileID: 645017403}
   vg: {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
+  playerDistance: 0
+  interactable: 0
 --- !u!1 &1789152281
 GameObject:
   m_ObjectHideFlags: 0
@@ -14783,7 +14803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899843195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14825,6 +14845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: 0
+  interactRange: 3
   activeVegetable: {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
 --- !u!58 &1899843202
 CircleCollider2D:

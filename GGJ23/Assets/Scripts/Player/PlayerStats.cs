@@ -6,5 +6,7 @@ public class PlayerStats : MonoBehaviour
 {
     public int money = 0;
 
+    public float interactRange;
+
     public Vegetable activeVegetable;
 }

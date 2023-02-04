@@ -11,13 +11,13 @@ public class PlayerMoney : MonoBehaviour
     public PlayerStats playerMoney;
     private int money;
 
-    private int seedCost = 27;
+    private int seedCost = 30;
 
     public GameObject FarmUpgradeButton;
-    private int farmUpgradeCost = 45;
+    private int farmUpgradeCost = 50;
 
     public GameObject ShopUpgradeButton;
-    private int ShopUpgradeCost = 65;
+    private int ShopUpgradeCost = 50;
 
     // Start is called before the first frame update
     void Start()

@@ -73,6 +73,8 @@ public class GrowController : MonoBehaviour
     {
         GameObject go = new GameObject(vg.name + "Drop");
         go.tag = "VegetableDrop";
+        CircleCollider2D col = go.AddComponent<CircleCollider2D>();
+        col.isTrigger = true;
         SpriteRenderer ren = go.AddComponent<SpriteRenderer>();
         ren.sprite = vg.finalProduct;
         go.transform.position = new Vector3(transform.position.x, transform.position.y, -2);

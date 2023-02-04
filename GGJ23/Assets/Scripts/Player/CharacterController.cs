@@ -25,4 +25,12 @@ public class CharacterController : MonoBehaviour
         rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
 
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "VegetableDrop")
+        {
+            print("DROP");
+        }
+    }
 }

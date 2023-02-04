@@ -2947,7 +2947,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1067338211}
-  - component: {fileID: 1067338212}
   m_Layer: 0
   m_Name: FarmPatch
   m_TagString: Untagged
@@ -2963,7 +2962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067338210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.022, y: -1.56, z: -0.73706657}
+  m_LocalPosition: {x: 3.022, y: -1.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2976,19 +2975,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1067338212
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067338210}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.029868, y: 3.8574295, z: 1}
-  m_Center: {x: -0.09368622, y: -0.023421526, z: 0}
 --- !u!1 &1088969100
 GameObject:
   m_ObjectHideFlags: 0
@@ -16362,6 +16348,7 @@ GameObject:
   - component: {fileID: 1899843198}
   - component: {fileID: 1899843201}
   - component: {fileID: 1899843202}
+  - component: {fileID: 1899843203}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -16449,9 +16436,25 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.21}
   serializedVersion: 2
   m_Radius: 2
+--- !u!58 &1899843203
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899843195}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.21}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1972300854
 GameObject:
   m_ObjectHideFlags: 0
@@ -16976,8 +16979,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142421994}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6212454, y: -0.3970275, z: -0.22416605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

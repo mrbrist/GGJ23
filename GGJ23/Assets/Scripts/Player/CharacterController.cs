@@ -9,6 +9,14 @@ public class CharacterController : MonoBehaviour
 
     Vector2 movement;
 
+    public SpriteRenderer PlayerSprite;
+
+    public Sprite playerUp;
+    public Sprite playerLeft;
+    public Sprite playerRight;
+    public Sprite playerDown;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,6 +26,25 @@ public class CharacterController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        if(movement.y == 1)
+        {
+            PlayerSprite.sprite = playerUp;
+        }
+        if(movement.y == -1)
+        {
+            PlayerSprite.sprite = playerDown;
+        }
+
+        if(movement.x == -1)
+        {
+            PlayerSprite.sprite = playerLeft;
+        }
+        if(movement.x == 1)
+        {
+            PlayerSprite.sprite = playerRight;
+        }
+
     }
 
     private void FixedUpdate()

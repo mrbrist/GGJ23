@@ -10,6 +10,7 @@ public class Vegetable : ScriptableObject
     public Sprite seed;
     public Sprite finalProduct;
     public Sprite[] growthSprites;
+    public Sprite shopImage;
 
     public int worthPer;
     public int seedCost;
@@ -19,4 +20,6 @@ public class Vegetable : ScriptableObject
     public int growthStage;
     public float growthTime;
     public int maxSize;
+
+    public bool stackable = true;
 }

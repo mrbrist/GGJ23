@@ -12,6 +12,7 @@ public class Vegetable : ScriptableObject
     public Sprite[] growthSprites;
 
     public int worthPer;
+    public int seedCost;
 
     public bool isGrowing = false;
 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Carrot
   seed: {fileID: 1191721060, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
-  finalProduct: {fileID: -827641191, guid: 4cd16b8edbef01744ac10e83399f3373, type: 3}
+  finalProduct: {fileID: -318894493, guid: a156e3be2ff24314e9e9c8ed8f274bf5, type: 3}
   growthSprites:
   - {fileID: -2080702873, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: -2074857045, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}

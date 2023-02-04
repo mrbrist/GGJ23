@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Potato
   seed: {fileID: 871322389, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
-  finalProduct: {fileID: 1537192795, guid: 4cd16b8edbef01744ac10e83399f3373, type: 3}
+  finalProduct: {fileID: -804833769, guid: a156e3be2ff24314e9e9c8ed8f274bf5, type: 3}
   growthSprites:
   - {fileID: 280371184, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: 1284789625, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}

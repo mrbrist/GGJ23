@@ -66,6 +66,21 @@ public class GrowController : MonoBehaviour
         yield return new WaitForSeconds(growthTime);
         sr.sprite = emptyPlot;
         playerStats.money += vg.worthPer;
+        DropItems();
+    }
+
+    void DropItems ()
+    {
+        GameObject go = new GameObject(vg.name + "Drop");
+        SpriteRenderer ren = go.AddComponent<SpriteRenderer>();
+        ren.sprite = vg.finalProduct;
+        go.transform.position = new Vector3(transform.position.x, transform.position.y, -2);
+
+        Vector2 dropDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        Rigidbody2D rb = go.AddComponent<Rigidbody2D>();
+        rb.gravityScale = 0;
+        rb.drag = 5;
+        rb.AddForce(dropDirection * 2f, ForceMode2D.Impulse);
     }
 
     private void OnMouseDown()

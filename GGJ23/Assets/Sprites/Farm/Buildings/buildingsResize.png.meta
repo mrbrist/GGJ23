@@ -1,0 +1,6108 @@
+fileFormatVersion: 2
+guid: 1e9ed485a41207e4fad72a6f2b0c1abb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buildingsResize_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3518
+        width: 644
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f128aee032de97b41b0bcdf9528a1fce
+      internalID: -564579224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_1
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3518
+        width: 760
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2cb8cec5e8b914b843231af4e0bab5
+      internalID: 2019136297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3838
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d459d7ff53074e9de7eec856bc4e1
+      internalID: 1572840597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_3
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 3838
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e0dee56ed5ef4eb50c83227866acd
+      internalID: 66441942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_4
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 3838
+        width: 317
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68690c214fd971941890d04a46fe7761
+      internalID: -1291461325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_5
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 3518
+        width: 278
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45344d360eef5bb419c518cb0ca9e104
+      internalID: -1876084671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_6
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 3838
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7427aae6808e27446b879b64f5488efa
+      internalID: -490604526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_7
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 3838
+        width: 317
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132655e9eda1b9b4497f88732af5a349
+      internalID: -810552683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_8
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 3838
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f9831873514c499e71be2b394d3da
+      internalID: 91595689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_9
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 3518
+        width: 481
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6968b7c0a53664b926be5214bbc94e
+      internalID: -6739136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_10
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 3838
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4450dfd01fe5fb45bd0a2ee5074f404
+      internalID: 1760372181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_11
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 3838
+        width: 293
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b820609ab7bfb4189f8f1f5f968c8d
+      internalID: -1893720357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_12
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 3198
+        width: 754
+        height: 1090
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd4413972846d40942c320ecf0e891
+      internalID: -1535025312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_13
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 3838
+        width: 293
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175cea8bba7dd2246bd739b1513bbaf8
+      internalID: -2112178403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_14
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 3838
+        width: 2115
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a2855993c6aa14b8bc1e54caba71de
+      internalID: 527700792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_15
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 3708
+        width: 111
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c96974c9dcee949acf589309b14890
+      internalID: -1926084442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_16
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3708
+        width: 108
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453ad68c42909474887db811fd72e157
+      internalID: 235958167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_17
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 3717
+        width: 263
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b726e57200ce5478a4180b9960876e
+      internalID: -1716885864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_18
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3717
+        width: 261
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f5e2a23500ab54ba0992f1b34b564d
+      internalID: -2045334044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_19
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 3712
+        width: 264
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7966e08d008464aa5477c5f0b1f7fb
+      internalID: -917450251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_20
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 3518
+        width: 154
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6af4f4186f4c79409cfeead88e4f184
+      internalID: 1441778806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_21
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 3518
+        width: 154
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef21f6ee1fe82f14d8c4a2cc5a83faf2
+      internalID: 1645056587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_22
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 3518
+        width: 152
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5211eb530fc80784890996e96870d5a3
+      internalID: 452371079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_23
+      rect:
+        serializedVersion: 2
+        x: 4355
+        y: 3198
+        width: 311
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e1c9455930e7468d47d3a17d59eb4
+      internalID: 1458109315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_24
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 3518
+        width: 153
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e258dd45a42d20d489b20bbc95a3d584
+      internalID: 879436349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_25
+      rect:
+        serializedVersion: 2
+        x: 4889
+        y: 3518
+        width: 155
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ebc6d25192cb943a495a5c0361ab0f
+      internalID: 1803821120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_26
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 3518
+        width: 152
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c722ad857b7d15a41a8ff0d1081d2bfa
+      internalID: 1905943174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_27
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 3518
+        width: 152
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ffa481553c664c8268019b4f42740
+      internalID: -718217602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_28
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 3562
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01afe8f58494f4b8ca9805a2f0c1c8
+      internalID: 1378080762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_29
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 3518
+        width: 29
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c412e471502d0499b7414ca7538c9c
+      internalID: -1169504506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_30
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 3518
+        width: 29
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d531fd9f91fad49aaf373da3ae2963
+      internalID: -1674990278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_31
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 3521
+        width: 454
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c200c8961a4e3b478c9e561a0ff83cf
+      internalID: -68077419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_32
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3521
+        width: 454
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bac1781408123d4abca6e4a1ec665ba
+      internalID: 173496324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_33
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 3521
+        width: 452
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a02bef540e0ff74985ce5d89518be60
+      internalID: -2035916004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3198
+        width: 248
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0afef95d5bd99458a48e2534fbed9e
+      internalID: 616575324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3198
+        width: 249
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116e95c9c346bf44d8ff331202c0a3b3
+      internalID: 933341248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_36
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3004
+        width: 707
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde414a8275c8224baa90799a0476bf0
+      internalID: 1843762691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_37
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 3148
+        width: 390
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff27ecfc05eaa84cb853c4bfc4714c3
+      internalID: -1802957222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_38
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 3198
+        width: 30
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c17d2ec739be6841b6230912634fde3
+      internalID: 80960331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_39
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 3148
+        width: 390
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0773cd3e90fc84ba1d9780be233b8e
+      internalID: -1913198902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_40
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 3198
+        width: 29
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f90818f255e0134584d0a4140983abb
+      internalID: -164506492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_41
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 3148
+        width: 389
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1914c7894347bc44e8cd8e17f425e8d6
+      internalID: -927756336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_42
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 3198
+        width: 573
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244acfe2b59434c429cd88bc4933365a
+      internalID: -456894585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_43
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 3198
+        width: 314
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60aecc7d1d8d464488d77dbdee14e3d
+      internalID: 1817507768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_44
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 3198
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d98ddf8617c504b953780a3900d5d9
+      internalID: 1643925076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_45
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 3198
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc78e94da35576b40adda3448ba47b2e
+      internalID: 727157561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_46
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 3198
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c6905f15adcfd46b4284982d7f710a
+      internalID: -2059292035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_47
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 3198
+        width: 314
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f879ebba427a47a55ea72f32c9e23
+      internalID: 1971811088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_48
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 3198
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72ab18d1730942489acffa1f755af21
+      internalID: -1952407963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_49
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3198
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c89090caff0844b2891f2a021b42b
+      internalID: 1914225766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_50
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 3198
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098ecf1825d7754b8e3da9bc295f80f
+      internalID: 563299896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_51
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 3198
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43da847cab47ee4690375b575f420db
+      internalID: 169560919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_52
+      rect:
+        serializedVersion: 2
+        x: 4745
+        y: 3198
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ef0eada302fa44792c29dcce8b5de8
+      internalID: 1245769576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_53
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 3198
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab62c1e57be80141ab1a4f8af55c633
+      internalID: 1515627575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_54
+      rect:
+        serializedVersion: 2
+        x: 5315
+        y: 3085
+        width: 373
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1140f618b471d474e9aa29b41858ec85
+      internalID: 230287873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_55
+      rect:
+        serializedVersion: 2
+        x: 5638
+        y: 2497
+        width: 374
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203fca384a38ddf46881d9ff8f20138c
+      internalID: 1276725848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_56
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3133
+        width: 329
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d47624ac6a16194f8e928c52aba453a
+      internalID: 1403507888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_57
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 2749
+        width: 373
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce147e4647ee0a34ab6a94784e9666c0
+      internalID: 1522239182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_58
+      rect:
+        serializedVersion: 2
+        x: 4358
+        y: 2749
+        width: 373
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4981c368b00f1240b9bfa06b2351136
+      internalID: -1421051436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_59
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 2749
+        width: 373
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a86ec1f31631f4dbdc747bbdb38738
+      internalID: 66508633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_60
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3004
+        width: 322
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835231f649889f4db98b8f47c52d548
+      internalID: 1824801381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_61
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 3092
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcecd2a3937c99a48abb84926ba3fa79
+      internalID: 1777595758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2493
+        width: 707
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b117307a1f78b974ca8cf4656202ae8f
+      internalID: 1402433428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_63
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2857
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb3ec59b5e213d4e95c48ce125b591b
+      internalID: -1989436632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_64
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2493
+        width: 649
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab878227c03841541a76c612e54581bd
+      internalID: 553009605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_65
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2684
+        width: 540
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f18eb53048fa4891441bdf34589b7
+      internalID: 2054695672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_66
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 2684
+        width: 540
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfb2d14ad23917428c9d8e7b05a4f85
+      internalID: 388416790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_67
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 2684
+        width: 540
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb66d157f8973e4c95e47df050dad1f
+      internalID: -512355607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_68
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 2749
+        width: 234
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227f929d6abf5f44ab12c3580d90869b
+      internalID: -1243187186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_69
+      rect:
+        serializedVersion: 2
+        x: 4109
+        y: 2749
+        width: 234
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6660be8a3d7458489f88f3a70d075ba
+      internalID: 180382526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_70
+      rect:
+        serializedVersion: 2
+        x: 4749
+        y: 2749
+        width: 234
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556ac86af06b8484eb7a57f0823216f4
+      internalID: -1390778448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_71
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 2749
+        width: 234
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4904564bc784e5d4ebbe723881c78baa
+      internalID: 957761782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_72
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2749
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa77c498ff15734e9d655e6269d4ac6
+      internalID: -1851152439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_73
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 2749
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f429c6136e71f4fa5f38674088191f
+      internalID: -98431373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_74
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 2749
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31558d12f396aec4c992f1609c4b8703
+      internalID: -827989139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_75
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 2749
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e4134f2d5fea44eaa7928e48495b45
+      internalID: 663405571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_76
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 2749
+        width: 29
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574cff518cc5e74478a28e925c6654a6
+      internalID: 1446682175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_77
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2493
+        width: 27
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcabe27f5d45242bd0118011f9d7bc
+      internalID: -1386554947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_78
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 2493
+        width: 26
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f4b1fd189cc844588e5f962eb27342
+      internalID: 576787654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_79
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2173
+        width: 346
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b6a9a33aea81e488ec988a8f5bd247
+      internalID: -962095761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_80
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 2173
+        width: 449
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2a4706016897d4aad7de017ccbfa0e
+      internalID: 1478351230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_81
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2173
+        width: 413
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34cfda8143f6384bb2fadc984870588
+      internalID: 94053551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_82
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 2173
+        width: 414
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f015aba11d99f745bde1b74b40f022d
+      internalID: -1890967063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_83
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 2173
+        width: 414
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e3f15ac5212bb47ac8a9cd03e09084
+      internalID: -364631504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2173
+        width: 307
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577b90246897dc44594924948ff7f339
+      internalID: 1592466174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_85
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2173
+        width: 307
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00c3c0da59234b489302d6a35fca1a1
+      internalID: 1016948326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_86
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2173
+        width: 202
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b087e2e9980d8447a27cebad333c8c9
+      internalID: -455459436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_87
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2344
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd186dd30e0c8624bb10ddf94abf9ad3
+      internalID: -1241486056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_88
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2300
+        width: 29
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708fec5ceff1a8f47ae5646c3e248da4
+      internalID: 411471341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_89
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 2300
+        width: 29
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ec4d30defd9eb4d9dc700444336279
+      internalID: -55082205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_90
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2173
+        width: 305
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dad0e5c31816fc46bf5545b69a0d8fe
+      internalID: 1296016490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_91
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2326
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b41dbc8be5c784e8baba94749d337d
+      internalID: 302775523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_92
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2173
+        width: 305
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc605864403650c45a3f2a4cb9d1f552
+      internalID: -1697241689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_93
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 2326
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b42393c3c00b0a4c8b16de68a64faa6
+      internalID: 68120870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_94
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 2173
+        width: 305
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf4bd9e010933d488cfa8cb2213a2a0
+      internalID: -1389540990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_95
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 2326
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada085449a8568946816593ec023881c
+      internalID: 500716969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_96
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 2173
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb607cddf789f4c9dec455f34242bb
+      internalID: -409150431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_97
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2197
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d96026fadf7cf14684c38d5c85df7c2
+      internalID: 881466104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_98
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 2173
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c402ad18cdb7c40ad054c6e72163f6
+      internalID: -206922148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_99
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 2173
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63013c7e18258cb44a42a93496518e5f
+      internalID: -505315134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_100
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2173
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b068dc7baf84f4cb5988142a2d20e8
+      internalID: -599733235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_101
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 2173
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5474be94fdc012c43904eddd240fac7c
+      internalID: 1825074195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_102
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2173
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33873a2751c25242ad2e70bcaf8efc8
+      internalID: -380483265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_103
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 2173
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999a5507b6176640953ca7e77e7f5e2
+      internalID: -1845311168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_104
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 2173
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4a1a812d581c349bd564a25087337a
+      internalID: -832097450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_105
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2173
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ba8ff40489f7941a442a31a3700286
+      internalID: 951821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_106
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 2173
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bdcb886eb182048b9e996086fc8bb4
+      internalID: 1341299295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_107
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 2173
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff677ea6ec9f8ce43aa235788d9bf5dc
+      internalID: -1062393174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_108
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 2173
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525489e161ac9154b9d0161e61a812d0
+      internalID: 706720710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_109
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 2173
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e484b4a6f881794439cfa8c31565b42f
+      internalID: 1018568943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_110
+      rect:
+        serializedVersion: 2
+        x: 5095
+        y: 2173
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f1e88805bed7041a814973dce8ae6c
+      internalID: 169773465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_111
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1853
+        width: 297
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b708ccfb652b6a34d8c0a0e450b98398
+      internalID: 705321213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_112
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1853
+        width: 297
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949929e31530a044b8d2295dad941ad
+      internalID: -573968667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_113
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1853
+        width: 74
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4879f5dcf8160a246b7b4acb0bd33f0d
+      internalID: -1073213435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_114
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1853
+        width: 202
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3e45a9eeb5821478532017d484e57e
+      internalID: -1953381295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_115
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1853
+        width: 296
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16462747aa0414a95d9809f0c28af0
+      internalID: 1310262566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_116
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1853
+        width: 299
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b161660c4ba174184469f1cd88d536
+      internalID: -426047934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_117
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1853
+        width: 297
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf3fa538054c7942aed15f0ffe2c1a1
+      internalID: 1898615398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_118
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 1853
+        width: 337
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f826077ca45af4fb3ba97e228ffe88
+      internalID: -1688087198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_119
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 1853
+        width: 339
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719dea60ae9df8047a2a54d0facb357b
+      internalID: -1522403379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_120
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 1853
+        width: 202
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8f2e8107ca3114dbdb40fca2895ba6
+      internalID: 1120401809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_121
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2024
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6091ce4962b1ba747ba49e4a5cdca660
+      internalID: 1175858870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_122
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 1980
+        width: 29
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2819b8a0aba63cc4ea2a10b34d865a4e
+      internalID: 1817677922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_123
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 1980
+        width: 29
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fec558ee6a269e4d9122f032f48b506
+      internalID: -1509180092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_124
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 1853
+        width: 338
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de9e7a622f9824883cda7c77730894
+      internalID: 45945235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_125
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 1853
+        width: 337
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c6120cc73a25741a78a3d02d26b85b
+      internalID: 612865761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_126
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 1853
+        width: 338
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c97387bf9b5f634582f38e38de2789e
+      internalID: 1345145727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_127
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1897
+        width: 115
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea0905737a1e464888faca10a48ce2c
+      internalID: 749197661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_128
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1853
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3c7df2d54bc534d97b52ae6681a064
+      internalID: 1827092859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_129
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1853
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c2828b64afa94483d80b9f52060da
+      internalID: -420057504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_130
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1853
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fbe0c8d5bd99a4ca79e88a38a7b31e
+      internalID: -1010257169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_131
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1853
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a31daf67dc274c9749e2efb2c8cf8
+      internalID: -1072250039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_132
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1853
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6ff5e5dd1c3a42af3025beeb90610
+      internalID: 836868082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_133
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1853
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb60b809864ede4592bc93012631610
+      internalID: -1501042801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_134
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1853
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df3ef8569c71824495e6ff57566ecbe
+      internalID: 783178942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_135
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1853
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c3dac50dae8294eb9d1b52319af2de
+      internalID: -1781919160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_136
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1853
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb49396d9f3b9ff4493dda26c2bc88f8
+      internalID: -1346500425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_137
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 1853
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f82484626ef0b4f99ae5e07a68c59e
+      internalID: 564464130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_138
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 1853
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7743d18675f8c84f8712c2f84e2216f
+      internalID: -392546415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_139
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1853
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9434ca147fbe244e95a1c6e63ec8b28
+      internalID: 463785725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_140
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 1853
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c72223fe4111a943a594a7cc7305694
+      internalID: -1959256979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_141
+      rect:
+        serializedVersion: 2
+        x: 4490
+        y: 1853
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd43d034a5e464cbb5b86f562746e3
+      internalID: -1666422440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_142
+      rect:
+        serializedVersion: 2
+        x: 4581
+        y: 1853
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0b4b6c9f4cd744a803a85ccfecdf7
+      internalID: 1315982063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_143
+      rect:
+        serializedVersion: 2
+        x: 5001
+        y: 1853
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2572dabe790b4498a990487073727d
+      internalID: 1632417398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_144
+      rect:
+        serializedVersion: 2
+        x: 5065
+        y: 1853
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702cb4eab2146c848997cf9e51be5f3c
+      internalID: -83448931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_145
+      rect:
+        serializedVersion: 2
+        x: 5157
+        y: 1853
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bda05901da30a541ae4a64d6e7bd754
+      internalID: -949548766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_146
+      rect:
+        serializedVersion: 2
+        x: 5578
+        y: 1853
+        width: 57
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031c8d9f09beb8b43bbad15f66facd37
+      internalID: -1148498863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_147
+      rect:
+        serializedVersion: 2
+        x: 5641
+        y: 1853
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51257c81b3e86df4ba082c2701085e7c
+      internalID: 2102480101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_148
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 1853
+        width: 29
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d64fa67fd77994f9554f5c4b82ee01
+      internalID: -1615959323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1534
+        width: 386
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856891f160794944c965fc10d5b8a72a
+      internalID: 773233391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_150
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1214
+        width: 587
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9627f99a9cb0c3f4ea95c39d1c6dc904
+      internalID: -1339782885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_151
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1704
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21505416bc0314b9065d9e63a69c58
+      internalID: 1613828694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_152
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1660
+        width: 30
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ab11c7402e7bd479684f3e8f45db6c
+      internalID: 145415660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_153
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1660
+        width: 31
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb913cc19888d44a82406652755a05
+      internalID: -1467283031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_154
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1534
+        width: 394
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53577435e0df7494d855d63ed44a0774
+      internalID: -511398293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_155
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1534
+        width: 414
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0765a8c6b9d528244a3bb9b067914bf6
+      internalID: 247304569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_156
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1534
+        width: 414
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c124e0bbbfa6454fb85329ef8034392
+      internalID: 2036370370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_157
+      rect:
+        serializedVersion: 2
+        x: 4661
+        y: 1692
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2749f8a4b7152429efc397c55f6fe8
+      internalID: 76977730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_158
+      rect:
+        serializedVersion: 2
+        x: 4705
+        y: 1666
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592281fed2077342a7ad49aba1d5868
+      internalID: -1884429916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_159
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 1698
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a690e3b7ac9648a227716e53daaa0
+      internalID: -579539694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_160
+      rect:
+        serializedVersion: 2
+        x: 4925
+        y: 1701
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eb59a76aa845246a192abd99f0df90
+      internalID: -535309119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_161
+      rect:
+        serializedVersion: 2
+        x: 4954
+        y: 1677
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d037fa5422dce4b8a7bb09c0a4b391
+      internalID: -52669982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_162
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 1654
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57fcda21ae9035429675950b1d0aae3
+      internalID: -1561964658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_163
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 1657
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a44c9bfdf0fb140be804c1eb6d56fb
+      internalID: -749997354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_164
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 1645
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae05c8f8df93f947bf70cdd833556e3
+      internalID: -789202680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_165
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 1669
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d54b5751160a1145a2c75d2b8a8694e
+      internalID: -54300768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_166
+      rect:
+        serializedVersion: 2
+        x: 4801
+        y: 1628
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c16535e15f9e84cba20f3881a521a8
+      internalID: -1953103486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_167
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 1628
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d085dda8154ef5d4f8c3b0e18d4ebb50
+      internalID: -99355405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_168
+      rect:
+        serializedVersion: 2
+        x: 5861
+        y: 865
+        width: 151
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd75607b9ad98647a4f9d9877c2d8f2
+      internalID: -1179141748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_169
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1534
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9251ca5954d74eb7967e13eb96f28
+      internalID: -1670176159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_170
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1534
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179d791a3b1b1e242b0c8a882caa0ada
+      internalID: 1058484086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_171
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 1534
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202c63b46bc76549a5a1f1ca71fe86d
+      internalID: -1664959874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_172
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1534
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5243b70f37ec7df46976a2e1c440a098
+      internalID: 690337024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_173
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 1534
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6efe457897b7043988a42db36f5a97
+      internalID: -453557753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_174
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1534
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f153afd25d4a4cb9ef11f22dc61f2
+      internalID: 885804949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_175
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 1534
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0ee91dd24ea54d86a758e9876d667
+      internalID: 1290584311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_176
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 1534
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555f7592b51e3e488d459539091a9ed
+      internalID: 1546057376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_177
+      rect:
+        serializedVersion: 2
+        x: 4919
+        y: 1610
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea1e35e1bf41324fb7740c7246a0f7a
+      internalID: -91453727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 380
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9828f7e785077e4da0abd804c34d3ac
+      internalID: -673173112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_179
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1384
+        width: 113
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d29b7c7a1fe03245981def6229218a3
+      internalID: 1963545300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_180
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1340
+        width: 29
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2428b9725f9a71d4cb484aa478c69b90
+      internalID: -1059646124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_181
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1214
+        width: 405
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94173c73b1ffc22429f541846bda0684
+      internalID: -1182629054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_182
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1214
+        width: 382
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f56259d04b1d444cb559dc01d69edca
+      internalID: 1442537968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_183
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1214
+        width: 381
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdc35077ce894642bab8ed0e925b65e
+      internalID: 1658433921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_184
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1214
+        width: 381
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0b3de7bbc2d8642bc6c99386a9e273
+      internalID: -1970004082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_185
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1214
+        width: 519
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5245d75a5a7db5f4d8cbfb8cd4401555
+      internalID: 405127400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_186
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 1384
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e643b3b6c51346a0a852cb09d7690
+      internalID: -1966399170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_187
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 1340
+        width: 29
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e25ac2c04e4c94e8c2b8c3adc49e7e
+      internalID: -1693559217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_188
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 1214
+        width: 405
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c5db4e8d290a4681708ab0ff92818
+      internalID: -562264020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_189
+      rect:
+        serializedVersion: 2
+        x: 4734
+        y: 1214
+        width: 381
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6fc1a82f3457541afb54522ec9a7db
+      internalID: 298157211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_190
+      rect:
+        serializedVersion: 2
+        x: 5309
+        y: 1214
+        width: 382
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254f87f3524e1964cb49b9c95a975586
+      internalID: -107691818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_191
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1217
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1fbab2bb4168a448418c860ad1469c
+      internalID: 1914562233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_192
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1214
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542e43c20a0a90a47a5b7aa50001cfda
+      internalID: 131039874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_193
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1217
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17aac83457f76844babe556c1000e01
+      internalID: -937197725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_194
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1217
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0c7eac15afeeb4a9a68c1656fef036
+      internalID: -193233618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_195
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 1214
+        width: 70
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568297cb16228b45b00e34a0127ca1e
+      internalID: 1342907276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_196
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1217
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e610c8714945a429a02da2b6ccf1c2
+      internalID: -824424174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_197
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1217
+        width: 29
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa08fbcdb7748c4c85e70dc822e6aae
+      internalID: -1529543624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_198
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1214
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbffc00e633efc345bdb8261407ce8b5
+      internalID: 440676442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_199
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1217
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46089c90db0a0414c9bece7c7d2b1a26
+      internalID: 1249466530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_200
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 1217
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0345c468bd8ac6a44b9d4a5b32fd264e
+      internalID: 819435900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_201
+      rect:
+        serializedVersion: 2
+        x: 3853
+        y: 1214
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f2380679027f4e955aafd851561b6
+      internalID: 1498627400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_202
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 1214
+        width: 29
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbf09e6cde460f4681e280527a6b004
+      internalID: 860022084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_203
+      rect:
+        serializedVersion: 2
+        x: 4546
+        y: 1214
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa1216be527d0f4ea8fef4868918600
+      internalID: -391620422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_204
+      rect:
+        serializedVersion: 2
+        x: 4622
+        y: 1214
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13a4df05dc0292488c683364d2acc6f
+      internalID: 316405530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_205
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 1214
+        width: 29
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b359b825357c419a217b7dfe5f136
+      internalID: 967522079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_206
+      rect:
+        serializedVersion: 2
+        x: 5121
+        y: 1214
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a3a68de1e95a47b1e3fbf48f00f06
+      internalID: 1370034627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_207
+      rect:
+        serializedVersion: 2
+        x: 5197
+        y: 1214
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7aa4a798b2914791d2e0da75865f9
+      internalID: 1704960085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_208
+      rect:
+        serializedVersion: 2
+        x: 5286
+        y: 1214
+        width: 29
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe29fa9a49b8004cbbe1e3c09e8325e
+      internalID: -284309618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_209
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 1214
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacc90b8c91f2764c8839d1f6ad46fdb
+      internalID: 1960733727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_210
+      rect:
+        serializedVersion: 2
+        x: 5773
+        y: 1214
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66207a256b2353b41bfd70a6e6ca9d45
+      internalID: -1285669989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 1536
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dae9c0bd5d05348bd81b489c89a393
+      internalID: 1838212430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_212
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 316
+        width: 1034
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 451, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b7a96c40ce034cb0ad65bbf8b85fc
+      internalID: -2132421302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_213
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 894
+        width: 117
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21abc616955c93544b8aa5f0b36fd5d8
+      internalID: -1452134020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_214
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 894
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964046028ef729a45a134b98d1a698c3
+      internalID: -328082159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_215
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 894
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9c0ac738d938d488ee640e4cac26f4
+      internalID: 1108361230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_216
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 894
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe0b23498d4485409e096740fb9b008
+      internalID: 1418737838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_217
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 316
+        width: 628
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae862592c41de545b192285de495429
+      internalID: -906211524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_218
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 894
+        width: 119
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29de73d4d6bf5e47b83d9350ffc7617
+      internalID: -418071400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_219
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 894
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e641c1cc4b7e044b6061f3fb3d77bb
+      internalID: -1229058789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_220
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 894
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321249e307759394da99eef670f6a900
+      internalID: -1505481815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_221
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 894
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986ad04ba36566b4b82ea8d0e2a9c549
+      internalID: 1951883846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_222
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 894
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8424d847d3767d9408f4060837fffbc6
+      internalID: -115747410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_223
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 316
+        width: 625
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e2fa243b12f134eaba081a91dcb8d1
+      internalID: 128933867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_224
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 894
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c52565d7142f948a6ebdddc3d6f011
+      internalID: -2137532880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_225
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 894
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68205c798a0bcef41b0d5d673b8a3eb6
+      internalID: -898767584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_226
+      rect:
+        serializedVersion: 2
+        x: 4478
+        y: 894
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f066ff21385b06b4290c72931e6387a8
+      internalID: 495383243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_227
+      rect:
+        serializedVersion: 2
+        x: 4549
+        y: 894
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73b289b3dc985499c93ab7c560c4c9
+      internalID: -76142889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_228
+      rect:
+        serializedVersion: 2
+        x: 4643
+        y: 894
+        width: 23
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b218aad2965474e9e8938b67bfa67c
+      internalID: -1074844431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_229
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 473
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe12fee7601b1d4296d7f2b09afb75e
+      internalID: 1056212212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_230
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 473
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6099c8dee5d9abc408e37b09268512e6
+      internalID: 379969906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_231
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 473
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39473ea9955f3c4884d8c6ea81b34e2
+      internalID: 1617593956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_232
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 473
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4b0fa8b76d4f54e8c9893086c7e111
+      internalID: 1114071173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_233
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 473
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f669d839b1f2b31478367d3ebd91f489
+      internalID: -1118105976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_234
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 473
+        width: 124
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8976363904a8645488eb8a20b1b04ca4
+      internalID: -359581237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_235
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 473
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53432ec5bb11ec84db7eb64f1f982979
+      internalID: 289157058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_236
+      rect:
+        serializedVersion: 2
+        x: 4546
+        y: 473
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1f9a857894449478001d32e30e6dcb
+      internalID: 516805625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_237
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 473
+        width: 123
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70e677c857c3ed4bacf0ad15d54a3bd
+      internalID: -1199503492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_238
+      rect:
+        serializedVersion: 2
+        x: 4801
+        y: 473
+        width: 126
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029d978a0e6da064d872121a594764eb
+      internalID: -1518918276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_239
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 316
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b85d00d7ba4a92488f380a4e50f9f62
+      internalID: 1553659728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_240
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 316
+        width: 31
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a4790824ec424480168047d15b411
+      internalID: -624141875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_241
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 316
+        width: 190
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e97c5ef552fa040b7a9c4f74d888b6
+      internalID: 236605875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_242
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 316
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c8468752d61c94c9fbaf1ddf178575
+      internalID: -583684121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_243
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 316
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596e777c0446db048b5840e11b45e89f
+      internalID: -1219938096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_244
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 316
+        width: 190
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba66ab56db99049be98ecfec237342
+      internalID: 1139832533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_245
+      rect:
+        serializedVersion: 2
+        x: 4613
+        y: 316
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f300860e90d9944b9551b433e5b0b5
+      internalID: -483580336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_246
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 316
+        width: 29
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ebe57289acd9744955d3fc462c7db4
+      internalID: 702077105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_247
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 372
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6752c2a94a3ec6d42ae6254d0982652b
+      internalID: 1402503136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_248
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 373
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856abda2a35bf74cb1748a8f1282e5c
+      internalID: -463562528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_249
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 774
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83871de61aef4a74f8a23c35f5360434
+      internalID: 785845629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_250
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 104
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482636c84b9532a4caa5694fcb0ea764
+      internalID: 1791385344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_251
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 60
+        width: 105
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9dfd7a4b3e4ba42852ef4ff2d8949c
+      internalID: 1505395718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_252
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 60
+        width: 29
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a92f5ac1b416b4291841f9119cc34c
+      internalID: 1634739257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_253
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 60
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bce734525a28f458c8b0f5b470e362
+      internalID: 1769745197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_254
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 0
+        width: 375
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef573d8165a849a428662c9a9e84cdd7
+      internalID: 671307299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_255
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 60
+        width: 642
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fef36f99f610fb4d8b3c0b9ee3f3306
+      internalID: -849180093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_256
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 0
+        width: 375
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6f95b624b484548aedbae3341d0523
+      internalID: 232162212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_257
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 60
+        width: 640
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c4561f1a878a40835a137405046fd
+      internalID: 187639391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_258
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 0
+        width: 387
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4893ad33dddbf4fb2c6e54fb6b7ac4
+      internalID: 1574763544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_259
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 60
+        width: 646
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7494fb9cb883e04ca9ce93b4773aa64
+      internalID: -473439365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_260
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 0
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb96dd5b4b5841740a6378730913fe2f
+      internalID: -1095894477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_261
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 0
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca9ea2fdbc1bf4fa5e97f35549e98d
+      internalID: 194272979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_262
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 0
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2be27128be2bb41b4c320338a74b84
+      internalID: -940568874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_263
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 0
+        width: 30
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab1195a00723b4daa05e957989eb8d
+      internalID: 451013545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_264
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 0
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e0566cb055b1d43a452ba62b7cb182
+      internalID: -1659197358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_265
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 0
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab6cb94db0d33a4d82e16be4772c778
+      internalID: -936196602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_266
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 0
+        width: 30
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f725dfe641e478a4c927ce13ab4722e2
+      internalID: 1622741569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_267
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 0
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc4519fefbc6741a307e6b022da44d
+      internalID: 1378467286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_268
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 0
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b1b060aafd25248a8f7a6bcf73f159
+      internalID: -947498249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_269
+      rect:
+        serializedVersion: 2
+        x: 4361
+        y: 0
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba18ad7a16975d4aa4258c26afd4bad
+      internalID: 76779022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_270
+      rect:
+        serializedVersion: 2
+        x: 4490
+        y: 0
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d7d9c58b5bbf4b96a2ec7189180b9
+      internalID: 445414837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsResize_271
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 0
+        width: 30
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421db3e029983504f9a6c0f3de3996bb
+      internalID: -2118119760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buildingsResize_52: 1245769576
+      buildingsResize_235: 289157058
+      buildingsResize_47: 1971811088
+      buildingsResize_4: -1291461325
+      buildingsResize_16: 235958167
+      buildingsResize_35: 933341248
+      buildingsResize_41: -927756336
+      buildingsResize_205: 967522079
+      buildingsResize_34: 616575324
+      buildingsResize_82: -1890967063
+      buildingsResize_98: -206922148
+      buildingsResize_78: 576787654
+      buildingsResize_125: 612865761
+      buildingsResize_134: 783178942
+      buildingsResize_119: -1522403379
+      buildingsResize_223: 128933867
+      buildingsResize_91: 302775523
+      buildingsResize_217: -906211524
+      buildingsResize_252: 1634739257
+      buildingsResize_170: 1058484086
+      buildingsResize_17: -1716885864
+      buildingsResize_216: 1418737838
+      buildingsResize_10: 1760372181
+      buildingsResize_143: 1632417398
+      buildingsResize_257: 187639391
+      buildingsResize_212: -2132421302
+      buildingsResize_156: 2036370370
+      buildingsResize_208: -284309618
+      buildingsResize_175: 1290584311
+      buildingsResize_266: 1622741569
+      buildingsResize_245: -483580336
+      buildingsResize_144: -83448931
+      buildingsResize_262: -940568874
+      buildingsResize_198: 440676442
+      buildingsResize_50: 563299896
+      buildingsResize_39: -1913198902
+      buildingsResize_72: -1851152439
+      buildingsResize_6: -490604526
+      buildingsResize_162: -1561964658
+      buildingsResize_93: 68120870
+      buildingsResize_31: -68077419
+      buildingsResize_176: 1546057376
+      buildingsResize_179: 1963545300
+      buildingsResize_114: -1953381295
+      buildingsResize_269: 76779022
+      buildingsResize_74: -827989139
+      buildingsResize_81: 94053551
+      buildingsResize_241: 236605875
+      buildingsResize_0: -564579224
+      buildingsResize_183: 1658433921
+      buildingsResize_258: 1574763544
+      buildingsResize_24: 879436349
+      buildingsResize_106: 1341299295
+      buildingsResize_177: -91453727
+      buildingsResize_227: -76142889
+      buildingsResize_40: -164506492
+      buildingsResize_166: -1953103486
+      buildingsResize_99: -505315134
+      buildingsResize_164: -789202680
+      buildingsResize_248: -463562528
+      buildingsResize_148: -1615959323
+      buildingsResize_120: 1120401809
+      buildingsResize_233: -1118105976
+      buildingsResize_191: 1914562233
+      buildingsResize_79: -962095761
+      buildingsResize_32: 173496324
+      buildingsResize_121: 1175858870
+      buildingsResize_9: -6739136
+      buildingsResize_86: -455459436
+      buildingsResize_255: -849180093
+      buildingsResize_56: 1403507888
+      buildingsResize_135: -1781919160
+      buildingsResize_178: -673173112
+      buildingsResize_267: 1378467286
+      buildingsResize_160: -535309119
+      buildingsResize_172: 690337024
+      buildingsResize_231: 1617593956
+      buildingsResize_109: 1018568943
+      buildingsResize_142: 1315982063
+      buildingsResize_206: 1370034627
+      buildingsResize_131: -1072250039
+      buildingsResize_194: -193233618
+      buildingsResize_12: -1535025312
+      buildingsResize_105: 951821
+      buildingsResize_236: 516805625
+      buildingsResize_83: -364631504
+      buildingsResize_219: -1229058789
+      buildingsResize_15: -1926084442
+      buildingsResize_112: -573968667
+      buildingsResize_136: -1346500425
+      buildingsResize_213: -1452134020
+      buildingsResize_122: 1817677922
+      buildingsResize_118: -1688087198
+      buildingsResize_207: 1704960085
+      buildingsResize_133: -1501042801
+      buildingsResize_137: 564464130
+      buildingsResize_42: -456894585
+      buildingsResize_96: -409150431
+      buildingsResize_129: -420057504
+      buildingsResize_215: 1108361230
+      buildingsResize_184: -1970004082
+      buildingsResize_141: -1666422440
+      buildingsResize_14: 527700792
+      buildingsResize_147: 2102480101
+      buildingsResize_247: 1402503136
+      buildingsResize_174: 885804949
+      buildingsResize_224: -2137532880
+      buildingsResize_220: -1505481815
+      buildingsResize_89: -55082205
+      buildingsResize_153: -1467283031
+      buildingsResize_180: -1059646124
+      buildingsResize_246: 702077105
+      buildingsResize_161: -52669982
+      buildingsResize_76: 1446682175
+      buildingsResize_43: 1817507768
+      buildingsResize_49: 1914225766
+      buildingsResize_200: 819435900
+      buildingsResize_140: -1959256979
+      buildingsResize_123: -1509180092
+      buildingsResize_168: -1179141748
+      buildingsResize_68: -1243187186
+      buildingsResize_48: -1952407963
+      buildingsResize_95: 500716969
+      buildingsResize_185: 405127400
+      buildingsResize_45: 727157561
+      buildingsResize_159: -579539694
+      buildingsResize_5: -1876084671
+      buildingsResize_214: -328082159
+      buildingsResize_167: -99355405
+      buildingsResize_158: -1884429916
+      buildingsResize_228: -1074844431
+      buildingsResize_61: 1777595758
+      buildingsResize_171: -1664959874
+      buildingsResize_128: 1827092859
+      buildingsResize_20: 1441778806
+      buildingsResize_94: -1389540990
+      buildingsResize_28: 1378080762
+      buildingsResize_37: -1802957222
+      buildingsResize_103: -1845311168
+      buildingsResize_67: -512355607
+      buildingsResize_186: -1966399170
+      buildingsResize_193: -937197725
+      buildingsResize_195: 1342907276
+      buildingsResize_57: 1522239182
+      buildingsResize_243: -1219938096
+      buildingsResize_152: 145415660
+      buildingsResize_101: 1825074195
+      buildingsResize_88: 411471341
+      buildingsResize_189: 298157211
+      buildingsResize_27: -718217602
+      buildingsResize_110: 169773465
+      buildingsResize_84: 1592466174
+      buildingsResize_165: -54300768
+      buildingsResize_77: -1386554947
+      buildingsResize_36: 1843762691
+      buildingsResize_29: -1169504506
+      buildingsResize_240: -624141875
+      buildingsResize_69: 180382526
+      buildingsResize_25: 1803821120
+      buildingsResize_59: 66508633
+      buildingsResize_1: 2019136297
+      buildingsResize_232: 1114071173
+      buildingsResize_230: 379969906
+      buildingsResize_225: -898767584
+      buildingsResize_188: -562264020
+      buildingsResize_70: -1390778448
+      buildingsResize_97: 881466104
+      buildingsResize_268: -947498249
+      buildingsResize_242: -583684121
+      buildingsResize_22: 452371079
+      buildingsResize_173: -453557753
+      buildingsResize_33: -2035916004
+      buildingsResize_181: -1182629054
+      buildingsResize_130: -1010257169
+      buildingsResize_44: 1643925076
+      buildingsResize_265: -936196602
+      buildingsResize_204: 316405530
+      buildingsResize_203: -391620422
+      buildingsResize_237: -1199503492
+      buildingsResize_138: -392546415
+      buildingsResize_100: -599733235
+      buildingsResize_108: 706720710
+      buildingsResize_226: 495383243
+      buildingsResize_249: 785845629
+      buildingsResize_53: 1515627575
+      buildingsResize_73: -98431373
+      buildingsResize_2: 1572840597
+      buildingsResize_222: -115747410
+      buildingsResize_126: 1345145727
+      buildingsResize_187: -1693559217
+      buildingsResize_154: -511398293
+      buildingsResize_199: 1249466530
+      buildingsResize_197: -1529543624
+      buildingsResize_113: -1073213435
+      buildingsResize_163: -749997354
+      buildingsResize_55: 1276725848
+      buildingsResize_146: -1148498863
+      buildingsResize_46: -2059292035
+      buildingsResize_169: -1670176159
+      buildingsResize_11: -1893720357
+      buildingsResize_263: 451013545
+      buildingsResize_254: 671307299
+      buildingsResize_192: 131039874
+      buildingsResize_210: -1285669989
+      buildingsResize_244: 1139832533
+      buildingsResize_26: 1905943174
+      buildingsResize_182: 1442537968
+      buildingsResize_3: 66441942
+      buildingsResize_65: 2054695672
+      buildingsResize_75: 663405571
+      buildingsResize_145: -949548766
+      buildingsResize_256: 232162212
+      buildingsResize_64: 553009605
+      buildingsResize_211: 1838212430
+      buildingsResize_151: 1613828694
+      buildingsResize_264: -1659197358
+      buildingsResize_229: 1056212212
+      buildingsResize_38: 80960331
+      buildingsResize_107: -1062393174
+      buildingsResize_80: 1478351230
+      buildingsResize_62: 1402433428
+      buildingsResize_85: 1016948326
+      buildingsResize_155: 247304569
+      buildingsResize_190: -107691818
+      buildingsResize_218: -418071400
+      buildingsResize_157: 76977730
+      buildingsResize_270: 445414837
+      buildingsResize_238: -1518918276
+      buildingsResize_63: -1989436632
+      buildingsResize_132: 836868082
+      buildingsResize_260: -1095894477
+      buildingsResize_87: -1241486056
+      buildingsResize_250: 1791385344
+      buildingsResize_18: -2045334044
+      buildingsResize_102: -380483265
+      buildingsResize_196: -824424174
+      buildingsResize_104: -832097450
+      buildingsResize_116: -426047934
+      buildingsResize_58: -1421051436
+      buildingsResize_149: 773233391
+      buildingsResize_201: 1498627400
+      buildingsResize_124: 45945235
+      buildingsResize_221: 1951883846
+      buildingsResize_7: -810552683
+      buildingsResize_8: 91595689
+      buildingsResize_111: 705321213
+      buildingsResize_66: 388416790
+      buildingsResize_150: -1339782885
+      buildingsResize_251: 1505395718
+      buildingsResize_90: 1296016490
+      buildingsResize_239: 1553659728
+      buildingsResize_19: -917450251
+      buildingsResize_259: -473439365
+      buildingsResize_202: 860022084
+      buildingsResize_21: 1645056587
+      buildingsResize_54: 230287873
+      buildingsResize_92: -1697241689
+      buildingsResize_261: 194272979
+      buildingsResize_30: -1674990278
+      buildingsResize_13: -2112178403
+      buildingsResize_60: 1824801381
+      buildingsResize_23: 1458109315
+      buildingsResize_71: 957761782
+      buildingsResize_51: 169560919
+      buildingsResize_115: 1310262566
+      buildingsResize_271: -2118119760
+      buildingsResize_234: -359581237
+      buildingsResize_139: 463785725
+      buildingsResize_209: 1960733727
+      buildingsResize_253: 1769745197
+      buildingsResize_117: 1898615398
+      buildingsResize_127: 749197661
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

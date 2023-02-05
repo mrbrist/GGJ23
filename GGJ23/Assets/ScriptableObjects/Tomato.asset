@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4da2d805288857e4fad71a4fb081893f, type: 3}
-  m_Name: Strawberry
+  m_Name: Tomato
   m_EditorClassIdentifier: 
-  name: Strawberry
+  name: Tomato
   seed: {fileID: -210882889, guid: 30f628a5b7670f1438bc8ba18db096cc, type: 3}
   finalProduct: {fileID: -245314013, guid: 4cd16b8edbef01744ac10e83399f3373, type: 3}
   growthSprites:
@@ -22,10 +22,10 @@ MonoBehaviour:
   - {fileID: 1697980024, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: 1594042427, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   shopImage: {fileID: -210882889, guid: 30f628a5b7670f1438bc8ba18db096cc, type: 3}
-  worthPer: 15
+  worthPer: 30
   seedCost: 10
   isGrowing: 0
   growthStage: -1
-  growthTime: 1
+  growthTime: 3
   maxSize: 4
   stackable: 1

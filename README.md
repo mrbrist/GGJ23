@@ -1,4 +1,4 @@
-# GGJ23
+# Root Odyssey (GGJ23)
 
 ## Theme: *ROOTS*
 

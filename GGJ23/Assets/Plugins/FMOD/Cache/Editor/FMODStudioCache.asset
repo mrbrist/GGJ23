@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: UWE_GGJ_2023_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638112116932146172
+  lastModified: 638112119132575519
   FileSizes:
   - Name: Desktop
     Value: 8565376
@@ -62,7 +62,7 @@ MonoBehaviour:
   Path: UWE_GGJ_2023_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638112116932204661
+  lastModified: 638112119132585498
   FileSizes:
   - Name: Desktop
     Value: 1374
@@ -229,7 +229,7 @@ MonoBehaviour:
   - {fileID: -8608057507294706340}
   StringsBanks:
   - {fileID: -7568982173401200225}
-  cacheTime: 638112116932204661
+  cacheTime: 638112119132585498
   cacheVersion: 131593
 --- !u!114 &804476055268558724
 MonoBehaviour:

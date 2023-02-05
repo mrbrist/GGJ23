@@ -114,7 +114,7 @@ public class GrowController : MonoBehaviour
     {
         InventoryManager.instance.GetSelectedVegetable(true);
 
-        if (!isGrowing && interactable)
+        if (!isGrowing && interactable && playerStats.activeVegetable)
         {
             vg = playerStats.activeVegetable;
 

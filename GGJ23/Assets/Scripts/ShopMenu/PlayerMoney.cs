@@ -46,6 +46,8 @@ public class PlayerMoney : MonoBehaviour
         {
             playerMoney.money -= veg[id].seedCost;
             Debug.Log(veg[id].seedCost);
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/buySeeds");
         }
     }
 
@@ -65,6 +67,8 @@ public class PlayerMoney : MonoBehaviour
             FarmUpgradeButton.GetComponent<Button>().interactable = false;
 
             farmArea2.SetActive(false);
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/buyUpgrades");
         }
     }
 

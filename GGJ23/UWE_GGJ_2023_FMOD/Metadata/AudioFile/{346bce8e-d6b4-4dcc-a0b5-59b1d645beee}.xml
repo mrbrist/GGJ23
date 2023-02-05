@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{346bce8e-d6b4-4dcc-a0b5-59b1d645beee}">
+		<property name="assetPath">
+			<value>ACTION_planetSeed03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.13234375000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d6198b41-eaa1-4950-bbf8-908bf8003c9c}</destination>
+		</relationship>
+	</object>
+</objects>

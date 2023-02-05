@@ -87,6 +87,7 @@ public class GrowController : MonoBehaviour
         yield return new WaitForSeconds(growthTime);
         sr.sprite = emptyPlot;
         DropItems();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Veggies/plantFinishedPop");
     }
 
     void DropItems ()
@@ -125,6 +126,8 @@ public class GrowController : MonoBehaviour
 
             isGrowing = true;
             growthStage = 0;
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Veggies/veggiePlant");
         }
     }
 }

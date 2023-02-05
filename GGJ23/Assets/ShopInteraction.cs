@@ -27,11 +27,17 @@ public class ShopInteraction : MonoBehaviour
                     MenuActive = true;
                     ShopUI.SetActive(true);
                     Player.GetComponent<CharacterController>().speed = 0;
+
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/shopDoorOpen");
+
                 } else
                 {
                     MenuActive = false;
                     ShopUI.SetActive(false);
                     Player.GetComponent<CharacterController>().speed = 10;
+
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/shopDoorClose");
+
                 }
                 
             }

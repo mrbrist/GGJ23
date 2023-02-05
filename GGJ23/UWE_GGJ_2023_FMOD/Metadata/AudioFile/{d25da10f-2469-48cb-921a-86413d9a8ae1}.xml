@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d25da10f-2469-48cb-921a-86413d9a8ae1}">
+		<property name="assetPath">
+			<value>BAG_openZip03.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.85227083333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d6198b41-eaa1-4950-bbf8-908bf8003c9c}</destination>
+		</relationship>
+	</object>
+</objects>

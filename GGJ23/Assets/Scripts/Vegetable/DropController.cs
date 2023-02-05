@@ -28,6 +28,8 @@ public class DropController : MonoBehaviour
             {
                 target.GetComponent<PlayerStats>().money += worth;
                 Destroy(gameObject);
+
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Player/pickUpItem");
             }
         }
     }

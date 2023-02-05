@@ -25,10 +25,12 @@ public class PlayerMoney : MonoBehaviour
 
     public GameObject farmArea2;
 
+    public Button[] buyButton;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -38,6 +40,8 @@ public class PlayerMoney : MonoBehaviour
 
         gemTxt.text = money.ToString();
         constGemTxt.text = money.ToString();
+
+        Buttons();
     }
 
     public void PurchaseSeedOne(int id)
@@ -49,11 +53,55 @@ public class PlayerMoney : MonoBehaviour
         }
     }
 
-    public void test(int id)
+    public void BtnInteractable(int id)
     {
-        if (playerMoney.money <= veg[id].seedCost)
+        if (playerMoney.money < veg[id].seedCost)
         {
-            
+            buyButton[id].interactable = false;
+        }
+        else
+        {
+            buyButton[id].interactable = true;
+        }
+    }
+
+    public void Buttons()
+    {
+        // set buttons uninteractable when player doesnt have enough money
+        if (playerMoney.money < veg[0].seedCost)
+        {
+            buyButton[0].interactable = false;
+        }
+        else
+        {
+            buyButton[0].interactable = true;
+        }
+
+        if (playerMoney.money < veg[1].seedCost)
+        {
+            buyButton[1].interactable = false;
+        }
+        else
+        {
+            buyButton[1].interactable = true;
+        }
+
+        if (playerMoney.money < veg[2].seedCost)
+        {
+            buyButton[2].interactable = false;
+        }
+        else
+        {
+            buyButton[2].interactable = true;
+        }
+
+        if (playerMoney.money < veg[3].seedCost)
+        {
+            buyButton[3].interactable = false;
+        }
+        else
+        {
+            buyButton[3].interactable = true;
         }
     }
 

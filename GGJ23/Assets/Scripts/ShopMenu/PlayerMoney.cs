@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PlayerMoney : MonoBehaviour
 {
     public TextMeshProUGUI gemTxt;
+    public TextMeshProUGUI constGemTxt;
 
     public PlayerStats playerMoney;
     private int money;
@@ -33,6 +34,7 @@ public class PlayerMoney : MonoBehaviour
         money = playerMoney.money;
 
         gemTxt.text = money.ToString();
+        constGemTxt.text = money.ToString();
     }
 
     public void PurchaseSeedOne()

@@ -7,6 +7,8 @@ public class DemoScript : MonoBehaviour
     public InventoryManager InventoryManager;
     public Vegetable[] boughtVegetables;
 
+    PlayerStats veg;
+
     public void BoughtVegetables(int id)
     {
         bool result = InventoryManager.AddItem(boughtVegetables[id]);
@@ -26,6 +28,8 @@ public class DemoScript : MonoBehaviour
         if(receivedVegetable != null)
         {
             Debug.Log("Received item: " + receivedVegetable);
+            
+            veg.activeVegetable = receivedVegetable;
         }
         else
         {

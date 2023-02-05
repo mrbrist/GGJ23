@@ -19,6 +19,8 @@ public class PlayerMoney : MonoBehaviour
     public GameObject ShopUpgradeButton;
     private int ShopUpgradeCost = 50;
 
+    public GameObject farmArea2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +49,8 @@ public class PlayerMoney : MonoBehaviour
         {
             playerMoney.money -= farmUpgradeCost;
             FarmUpgradeButton.GetComponent<Button>().interactable = false;
+
+            farmArea2.SetActive(false);
         }
     }
 

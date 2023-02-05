@@ -41546,7 +41546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startVegetables: []
-  maxStackedItems: 4
+  maxStackedItems: 12
   inventorySlots:
   - {fileID: 1312959114}
   - {fileID: 1975415678}

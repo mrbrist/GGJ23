@@ -22,7 +22,7 @@ MonoBehaviour:
   - {fileID: -273497885, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   - {fileID: 443396954, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   shopImage: {fileID: -1517811026, guid: 30f628a5b7670f1438bc8ba18db096cc, type: 3}
-  worthPer: 10
+  worthPer: 20
   seedCost: 10
   isGrowing: 0
   growthStage: -1

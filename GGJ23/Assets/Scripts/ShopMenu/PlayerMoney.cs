@@ -10,6 +10,7 @@ public class PlayerMoney : MonoBehaviour
     public InventoryManager InventoryManager;
 
     public TextMeshProUGUI gemTxt;
+    public TextMeshProUGUI constGemTxt;
 
     public PlayerStats playerMoney;
     public int money;
@@ -36,6 +37,7 @@ public class PlayerMoney : MonoBehaviour
         money = playerMoney.money;
 
         gemTxt.text = money.ToString();
+        constGemTxt.text = money.ToString();
     }
 
     public void PurchaseSeedOne(int id)

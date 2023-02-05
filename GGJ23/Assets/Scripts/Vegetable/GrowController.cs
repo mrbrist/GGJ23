@@ -112,7 +112,7 @@ public class GrowController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!isGrowing && interactable)
+        if (!isGrowing && interactable && playerStats.activeVegetable)
         {
             vg = playerStats.activeVegetable;
 

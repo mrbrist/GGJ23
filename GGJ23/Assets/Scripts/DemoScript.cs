@@ -26,6 +26,7 @@ public class DemoScript : MonoBehaviour
         if(receivedVegetable != null)
         {
             Debug.Log("Received item: " + receivedVegetable);
+            
         }
         else
         {

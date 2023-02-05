@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
+    public static InventoryManager instance;
+
+    public Vegetable[] startVegetables;
+
     public int maxStackedItems = 4;
     public InventorySlot[] inventorySlots;
     public GameObject inventoryItemPrefab;
 
     int selectedSlot = -1;
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
     private void Start()
     {
         ChangeSelectedSlot(0);
+
+        foreach(var vegetable in startVegetables)
+        {
+            AddItem(vegetable);
+        }
     }
 
     private void Update()

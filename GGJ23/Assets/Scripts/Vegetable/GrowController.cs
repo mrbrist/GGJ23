@@ -112,7 +112,9 @@ public class GrowController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!isGrowing && interactable)
+        InventoryManager.instance.GetSelectedVegetable(true);
+
+        if (!isGrowing && interactable && playerStats.activeVegetable)
         {
             vg = playerStats.activeVegetable;
 

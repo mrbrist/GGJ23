@@ -9,4 +9,9 @@ public class PlayerStats : MonoBehaviour
     public float interactRange;
 
     public Vegetable activeVegetable;
+
+    private void Update()
+    {
+        activeVegetable = InventoryManager.instance.GetSelectedVegetable(false);
+    }
 }

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -5907,8 +5907,8 @@ TextureImporter:
       buildingsResize_172: 690337024
       buildingsResize_231: 1617593956
       buildingsResize_109: 1018568943
-      buildingsResize_142: 1315982063
       buildingsResize_206: 1370034627
+      buildingsResize_142: 1315982063
       buildingsResize_131: -1072250039
       buildingsResize_194: -193233618
       buildingsResize_12: -1535025312

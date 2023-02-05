@@ -26,6 +26,6 @@ MonoBehaviour:
   seedCost: 20
   isGrowing: 0
   growthStage: -1
-  growthTime: 3
+  growthTime: 1
   maxSize: 4
   stackable: 1

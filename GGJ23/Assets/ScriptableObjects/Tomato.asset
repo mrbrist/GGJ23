@@ -23,7 +23,7 @@ MonoBehaviour:
   - {fileID: 1594042427, guid: 7fa5b0c220db53b40a47124da94f2a57, type: 3}
   shopImage: {fileID: -210882889, guid: 30f628a5b7670f1438bc8ba18db096cc, type: 3}
   worthPer: 30
-  seedCost: 10
+  seedCost: 30
   isGrowing: 0
   growthStage: -1
   growthTime: 3

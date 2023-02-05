@@ -6,12 +6,15 @@ using UnityEngine.UI;
 
 public class PlayerMoney : MonoBehaviour
 {
+    public Vegetable[] veg;
+    public InventoryManager InventoryManager;
+
     public TextMeshProUGUI gemTxt;
 
     public PlayerStats playerMoney;
-    private int money;
+    public int money;
 
-    private int seedCost = 30;
+    //private int seedCost = 30;
 
     public GameObject FarmUpgradeButton;
     private int farmUpgradeCost = 70;
@@ -35,11 +38,20 @@ public class PlayerMoney : MonoBehaviour
         gemTxt.text = money.ToString();
     }
 
-    public void PurchaseSeedOne()
+    public void PurchaseSeedOne(int id)
     {
-        if(playerMoney.money >= seedCost)
+        if(playerMoney.money >= veg[id].seedCost)
         {
-            playerMoney.money -= seedCost;
+            playerMoney.money -= veg[id].seedCost;
+            Debug.Log(veg[id].seedCost);
+        }
+    }
+
+    public void test(int id)
+    {
+        if (playerMoney.money <= veg[id].seedCost)
+        {
+            
         }
     }
 

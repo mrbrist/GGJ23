@@ -7,6 +7,8 @@ public class DemoScript : MonoBehaviour
     public InventoryManager InventoryManager;
     public Vegetable[] boughtVegetables;
 
+    PlayerMoney money;
+
     public void BoughtVegetables(int id)
     {
         bool result = InventoryManager.AddItem(boughtVegetables[id]);

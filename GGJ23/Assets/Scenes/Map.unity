@@ -3987,7 +3987,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1086994411}
         m_TargetAssemblyTypeName: PlayerMoney, Assembly-CSharp
         m_MethodName: PurchaseSeedOne
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5421,11 +5421,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1086994411}
         m_TargetAssemblyTypeName: PlayerMoney, Assembly-CSharp
         m_MethodName: PurchaseSeedOne
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12366,11 +12366,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1086994411}
         m_TargetAssemblyTypeName: PlayerMoney, Assembly-CSharp
         m_MethodName: PurchaseSeedOne
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12658,8 +12658,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a26ef77e04ff8274b9f908b1251e4581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  veg:
+  - {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
+  - {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
+  - {fileID: 11400000, guid: b8c85dd8e1ee58f4c94fc806c7634dd0, type: 2}
+  - {fileID: 11400000, guid: 96ebee4db02f4384bad429fda9230f19, type: 2}
+  InventoryManager: {fileID: 0}
   gemTxt: {fileID: 627341762}
   playerMoney: {fileID: 2114759554}
+  money: 0
   FarmUpgradeButton: {fileID: 327280677}
   ShopUpgradeButton: {fileID: 0}
   farmArea2: {fileID: 1123883611}
@@ -39164,11 +39171,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1086994411}
         m_TargetAssemblyTypeName: PlayerMoney, Assembly-CSharp
         m_MethodName: PurchaseSeedOne
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -42370,7 +42377,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c8e9dc0e9e56d264e8cca3f49b778623, type: 2}
   - {fileID: 11400000, guid: 020ff16a04da40346864cfc996838c4c, type: 2}
   - {fileID: 11400000, guid: b8c85dd8e1ee58f4c94fc806c7634dd0, type: 2}
-  - {fileID: 11400000, guid: b8c85dd8e1ee58f4c94fc806c7634dd0, type: 2}
+  - {fileID: 11400000, guid: 96ebee4db02f4384bad429fda9230f19, type: 2}
 --- !u!1 &1850620610
 GameObject:
   m_ObjectHideFlags: 0

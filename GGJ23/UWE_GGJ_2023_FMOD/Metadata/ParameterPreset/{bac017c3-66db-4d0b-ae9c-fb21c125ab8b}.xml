@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{bac017c3-66db-4d0b-ae9c-fb21c125ab8b}">
+		<property name="name">
+			<value>ShopOpen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a90ec2b9-46e1-457e-9e42-f3e1c1c82def}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{36d7cebc-1603-4c1f-bb9a-c2479f9b0c4c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{36d7cebc-1603-4c1f-bb9a-c2479f9b0c4c}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

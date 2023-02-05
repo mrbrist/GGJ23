@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e528da6f-0442-4025-b064-c48a3ca2b2a0}">
+		<property name="assetPath">
+			<value>MENU_knockSelection15.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.1978125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d6198b41-eaa1-4950-bbf8-908bf8003c9c}</destination>
+		</relationship>
+	</object>
+</objects>

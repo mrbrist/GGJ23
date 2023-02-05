@@ -134,6 +134,8 @@ GameObject:
   - component: {fileID: 879709}
   - component: {fileID: 879711}
   - component: {fileID: 879710}
+  - component: {fileID: 879713}
+  - component: {fileID: 879712}
   m_Layer: 0
   m_Name: Vegetable (6)
   m_TagString: Untagged
@@ -200,6 +202,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &879712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &879713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &16355337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1199,8 @@ GameObject:
   - component: {fileID: 100109260}
   - component: {fileID: 100109262}
   - component: {fileID: 100109261}
+  - component: {fileID: 100109264}
+  - component: {fileID: 100109263}
   m_Layer: 0
   m_Name: Vegetable (9)
   m_TagString: Untagged
@@ -1203,6 +1267,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &100109263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100109259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &100109264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100109259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &100674698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,6 +1338,8 @@ GameObject:
   - component: {fileID: 100674699}
   - component: {fileID: 100674701}
   - component: {fileID: 100674700}
+  - component: {fileID: 100674703}
+  - component: {fileID: 100674702}
   m_Layer: 0
   m_Name: Vegetable (12)
   m_TagString: Untagged
@@ -1280,6 +1406,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &100674702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100674698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &100674703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100674698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &103451006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1477,8 @@ GameObject:
   - component: {fileID: 103451007}
   - component: {fileID: 103451009}
   - component: {fileID: 103451008}
+  - component: {fileID: 103451011}
+  - component: {fileID: 103451010}
   m_Layer: 0
   m_Name: Vegetable (7)
   m_TagString: Untagged
@@ -1357,6 +1545,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &103451010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103451006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &103451011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103451006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &112069760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1692,8 @@ GameObject:
   - component: {fileID: 115813691}
   - component: {fileID: 115813693}
   - component: {fileID: 115813692}
+  - component: {fileID: 115813695}
+  - component: {fileID: 115813694}
   m_Layer: 0
   m_Name: Vegetable (17)
   m_TagString: Untagged
@@ -1510,6 +1760,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &115813694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115813690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &115813695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115813690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &121382822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,6 +1831,8 @@ GameObject:
   - component: {fileID: 121382823}
   - component: {fileID: 121382825}
   - component: {fileID: 121382824}
+  - component: {fileID: 121382827}
+  - component: {fileID: 121382826}
   m_Layer: 0
   m_Name: Vegetable (9)
   m_TagString: Untagged
@@ -1587,6 +1899,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &121382826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121382822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &121382827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121382822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &150457877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1702,6 +2074,8 @@ GameObject:
   - component: {fileID: 163063232}
   - component: {fileID: 163063234}
   - component: {fileID: 163063233}
+  - component: {fileID: 163063236}
+  - component: {fileID: 163063235}
   m_Layer: 0
   m_Name: Vegetable (6)
   m_TagString: Untagged
@@ -1768,6 +2142,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &163063235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163063231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &163063236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163063231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &165683305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1978,6 +2412,8 @@ GameObject:
   - component: {fileID: 217998095}
   - component: {fileID: 217998097}
   - component: {fileID: 217998096}
+  - component: {fileID: 217998099}
+  - component: {fileID: 217998098}
   m_Layer: 0
   m_Name: Vegetable (21)
   m_TagString: Untagged
@@ -2044,6 +2480,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &217998098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217998094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &217998099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217998094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &228198078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3085,6 +3581,8 @@ GameObject:
   - component: {fileID: 323476206}
   - component: {fileID: 323476208}
   - component: {fileID: 323476207}
+  - component: {fileID: 323476210}
+  - component: {fileID: 323476209}
   m_Layer: 0
   m_Name: Vegetable (16)
   m_TagString: Untagged
@@ -3151,6 +3649,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &323476209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323476205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &323476210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323476205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &327280677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3298,6 +3856,8 @@ GameObject:
   - component: {fileID: 331963168}
   - component: {fileID: 331963170}
   - component: {fileID: 331963169}
+  - component: {fileID: 331963172}
+  - component: {fileID: 331963171}
   m_Layer: 0
   m_Name: Vegetable (11)
   m_TagString: Untagged
@@ -3364,6 +3924,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &331963171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331963167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &331963172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331963167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &341883539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3680,6 +4300,8 @@ GameObject:
   - component: {fileID: 379981848}
   - component: {fileID: 379981850}
   - component: {fileID: 379981849}
+  - component: {fileID: 379981852}
+  - component: {fileID: 379981851}
   m_Layer: 0
   m_Name: Vegetable (23)
   m_TagString: Untagged
@@ -3746,6 +4368,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &379981851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379981847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &379981852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379981847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &380038756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,6 +4864,8 @@ GameObject:
   - component: {fileID: 439844118}
   - component: {fileID: 439844120}
   - component: {fileID: 439844119}
+  - component: {fileID: 439844122}
+  - component: {fileID: 439844121}
   m_Layer: 0
   m_Name: Vegetable (8)
   m_TagString: Untagged
@@ -4248,6 +4932,128 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &439844121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439844117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &439844122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439844117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &455459479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455459481}
+  - component: {fileID: 455459480}
+  m_Layer: 0
+  m_Name: AudioAtmos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &455459480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455459479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1811040889
+      Data2: 1176193014
+      Data3: 2111773068
+      Data4: -563899462
+    Path: event:/Environment/Atmos
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &455459481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455459479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.119188, y: 0.033467848, z: 0.13630529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &466322603 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2592043150908172543, guid: 5bf343c387bf9474284b9469805d3ed9, type: 3}
@@ -5690,6 +6496,8 @@ GameObject:
   - component: {fileID: 640887253}
   - component: {fileID: 640887255}
   - component: {fileID: 640887254}
+  - component: {fileID: 640887257}
+  - component: {fileID: 640887256}
   m_Layer: 0
   m_Name: Vegetable (5)
   m_TagString: Untagged
@@ -5756,6 +6564,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &640887256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640887252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &640887257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640887252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &665428774 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2592043150908172543, guid: 5bf343c387bf9474284b9469805d3ed9, type: 3}
@@ -7437,6 +8305,8 @@ GameObject:
   - component: {fileID: 825461162}
   - component: {fileID: 825461164}
   - component: {fileID: 825461163}
+  - component: {fileID: 825461166}
+  - component: {fileID: 825461165}
   m_Layer: 0
   m_Name: Vegetable (7)
   m_TagString: Untagged
@@ -7503,6 +8373,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &825461165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825461161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &825461166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825461161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &839484370
 GameObject:
   m_ObjectHideFlags: 0
@@ -7649,6 +8579,8 @@ GameObject:
   - component: {fileID: 844983211}
   - component: {fileID: 844983213}
   - component: {fileID: 844983212}
+  - component: {fileID: 844983215}
+  - component: {fileID: 844983214}
   m_Layer: 0
   m_Name: Vegetable (8)
   m_TagString: Untagged
@@ -7715,6 +8647,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &844983214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844983210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &844983215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844983210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &845115920
 GameObject:
   m_ObjectHideFlags: 0
@@ -7937,6 +8929,8 @@ GameObject:
   - component: {fileID: 859825303}
   - component: {fileID: 859825305}
   - component: {fileID: 859825304}
+  - component: {fileID: 859825307}
+  - component: {fileID: 859825306}
   m_Layer: 0
   m_Name: Vegetable (4)
   m_TagString: Untagged
@@ -8003,6 +8997,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &859825306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859825302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &859825307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859825302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &863846987
 GameObject:
   m_ObjectHideFlags: 0
@@ -8014,6 +9068,8 @@ GameObject:
   - component: {fileID: 863846988}
   - component: {fileID: 863846990}
   - component: {fileID: 863846989}
+  - component: {fileID: 863846992}
+  - component: {fileID: 863846991}
   m_Layer: 0
   m_Name: Vegetable (5)
   m_TagString: Untagged
@@ -8080,6 +9136,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &863846991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863846987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &863846992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863846987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &868527212
 GameObject:
   m_ObjectHideFlags: 0
@@ -8343,6 +9459,8 @@ GameObject:
   - component: {fileID: 902204084}
   - component: {fileID: 902204086}
   - component: {fileID: 902204085}
+  - component: {fileID: 902204088}
+  - component: {fileID: 902204087}
   m_Layer: 0
   m_Name: Vegetable (15)
   m_TagString: Untagged
@@ -8409,6 +9527,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &902204087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902204083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &902204088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902204083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &908971651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9236,6 +10414,8 @@ GameObject:
   - component: {fileID: 912869969}
   - component: {fileID: 912869971}
   - component: {fileID: 912869970}
+  - component: {fileID: 912869973}
+  - component: {fileID: 912869972}
   m_Layer: 0
   m_Name: Vegetable (18)
   m_TagString: Untagged
@@ -9302,6 +10482,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &912869972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912869968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &912869973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912869968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &921110034
 GameObject:
   m_ObjectHideFlags: 0
@@ -9628,6 +10868,8 @@ GameObject:
   - component: {fileID: 956840680}
   - component: {fileID: 956840682}
   - component: {fileID: 956840681}
+  - component: {fileID: 956840684}
+  - component: {fileID: 956840683}
   m_Layer: 0
   m_Name: Vegetable (22)
   m_TagString: Untagged
@@ -9694,6 +10936,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &956840683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956840679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &956840684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956840679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &978495765
 GameObject:
   m_ObjectHideFlags: 0
@@ -10156,9 +11458,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1019469572}
   - component: {fileID: 1019469571}
-  - component: {fileID: 1019469570}
   - component: {fileID: 1019469574}
   - component: {fileID: 1019469573}
+  - component: {fileID: 1019469575}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10166,14 +11468,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1019469570
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1019469569}
-  m_Enabled: 1
 --- !u!20 &1019469571
 Camera:
   m_ObjectHideFlags: 0
@@ -10309,6 +11603,19 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1019469575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019469569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1020531266
 GameObject:
   m_ObjectHideFlags: 0
@@ -12925,6 +14232,9 @@ GameObject:
   - component: {fileID: 1086994413}
   - component: {fileID: 1086994412}
   - component: {fileID: 1086994411}
+  - component: {fileID: 1086994417}
+  - component: {fileID: 1086994416}
+  - component: {fileID: 1086994418}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -13027,6 +14337,96 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086994416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086994410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1528641861
+      Data2: 1186709795
+      Data3: -344055379
+      Data4: -387274548
+    Path: event:/Actions/buyUpgrades
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1086994417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086994410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2136105406
+      Data2: 1082585055
+      Data3: -1724165481
+      Data4: -757851858
+    Path: event:/Actions/buySeeds
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1086994418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086994410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1592400229
+      Data2: 1276186397
+      Data3: 351131818
+      Data4: 1385260458
+    Path: event:/UI/switchTabs
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1098538739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13142,6 +14542,8 @@ GameObject:
   - component: {fileID: 1110476334}
   - component: {fileID: 1110476336}
   - component: {fileID: 1110476335}
+  - component: {fileID: 1110476338}
+  - component: {fileID: 1110476337}
   m_Layer: 0
   m_Name: Vegetable (13)
   m_TagString: Untagged
@@ -13208,6 +14610,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1110476337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110476333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1110476338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110476333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1112396970
 GameObject:
   m_ObjectHideFlags: 0
@@ -35048,6 +36510,8 @@ GameObject:
   - component: {fileID: 1276627225}
   - component: {fileID: 1276627227}
   - component: {fileID: 1276627226}
+  - component: {fileID: 1276627229}
+  - component: {fileID: 1276627228}
   m_Layer: 0
   m_Name: Vegetable (7)
   m_TagString: Untagged
@@ -35114,6 +36578,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1276627228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276627224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1276627229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276627224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1281351427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35229,6 +36753,8 @@ GameObject:
   - component: {fileID: 1294948533}
   - component: {fileID: 1294948535}
   - component: {fileID: 1294948534}
+  - component: {fileID: 1294948537}
+  - component: {fileID: 1294948536}
   m_Layer: 0
   m_Name: Vegetable (5)
   m_TagString: Untagged
@@ -35295,6 +36821,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1294948536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294948532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1294948537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294948532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1312959109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35640,6 +37226,8 @@ GameObject:
   - component: {fileID: 1387304414}
   - component: {fileID: 1387304416}
   - component: {fileID: 1387304415}
+  - component: {fileID: 1387304418}
+  - component: {fileID: 1387304417}
   m_Layer: 0
   m_Name: Vegetable (20)
   m_TagString: Untagged
@@ -35706,6 +37294,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1387304417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387304413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1387304418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387304413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1394591743
 GameObject:
   m_ObjectHideFlags: 0
@@ -36077,6 +37725,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1431831704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431831706}
+  - component: {fileID: 1431831705}
+  m_Layer: 0
+  m_Name: AudioMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1431831705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431831704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1462150876
+      Data2: 1157675635
+      Data3: -2107393857
+      Data4: -1243895525
+    Path: event:/Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1431831706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431831704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.285902, y: 0.86131495, z: 0.10498644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431852695
 GameObject:
   m_ObjectHideFlags: 0
@@ -39232,6 +40942,9 @@ GameObject:
   - component: {fileID: 1575219999}
   - component: {fileID: 1575220001}
   - component: {fileID: 1575220000}
+  - component: {fileID: 1575220003}
+  - component: {fileID: 1575220002}
+  - component: {fileID: 1575220004}
   m_Layer: 0
   m_Name: Vegetable (4)
   m_TagString: Untagged
@@ -39298,6 +41011,96 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1575220002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575219998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1575220003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575219998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1575220004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575219998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1245687835
+      Data2: 1173357369
+      Data3: 959469503
+      Data4: -534944722
+    Path: event:/Player/pickUpItem
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1584172475
 GameObject:
   m_ObjectHideFlags: 0
@@ -39893,6 +41696,8 @@ GameObject:
   - component: {fileID: 1630751711}
   - component: {fileID: 1630751713}
   - component: {fileID: 1630751712}
+  - component: {fileID: 1630751715}
+  - component: {fileID: 1630751714}
   m_Layer: 0
   m_Name: Vegetable (9)
   m_TagString: Untagged
@@ -39959,6 +41764,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1630751714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630751710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1630751715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630751710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1631391969
 GameObject:
   m_ObjectHideFlags: 0
@@ -41366,6 +43231,8 @@ GameObject:
   - component: {fileID: 1655443070}
   - component: {fileID: 1655443072}
   - component: {fileID: 1655443071}
+  - component: {fileID: 1655443074}
+  - component: {fileID: 1655443073}
   m_Layer: 0
   m_Name: Vegetable (4)
   m_TagString: Untagged
@@ -41432,6 +43299,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1655443073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655443069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1655443074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655443069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1689956096 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2592043150908172543, guid: 5bf343c387bf9474284b9469805d3ed9, type: 3}
@@ -42931,6 +44858,8 @@ GameObject:
   - component: {fileID: 1892506139}
   - component: {fileID: 1892506141}
   - component: {fileID: 1892506140}
+  - component: {fileID: 1892506143}
+  - component: {fileID: 1892506142}
   m_Layer: 0
   m_Name: Vegetable (19)
   m_TagString: Untagged
@@ -42997,6 +44926,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1892506142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892506138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1892506143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892506138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1912697005
 GameObject:
   m_ObjectHideFlags: 0
@@ -43008,6 +44997,8 @@ GameObject:
   - component: {fileID: 1912697006}
   - component: {fileID: 1912697008}
   - component: {fileID: 1912697007}
+  - component: {fileID: 1912697010}
+  - component: {fileID: 1912697009}
   m_Layer: 0
   m_Name: Vegetable (8)
   m_TagString: Untagged
@@ -43074,6 +45065,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1912697009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912697005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1912697010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912697005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1916492693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43524,6 +45575,8 @@ GameObject:
   - component: {fileID: 1981878191}
   - component: {fileID: 1981878193}
   - component: {fileID: 1981878192}
+  - component: {fileID: 1981878195}
+  - component: {fileID: 1981878194}
   m_Layer: 0
   m_Name: Vegetable (14)
   m_TagString: Untagged
@@ -43590,6 +45643,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &1981878194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981878190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1981878195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981878190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2000524501
 GameObject:
   m_ObjectHideFlags: 0
@@ -43823,6 +45936,8 @@ GameObject:
   - component: {fileID: 2023042882}
   - component: {fileID: 2023042884}
   - component: {fileID: 2023042883}
+  - component: {fileID: 2023042886}
+  - component: {fileID: 2023042885}
   m_Layer: 0
   m_Name: Vegetable (6)
   m_TagString: Untagged
@@ -43889,6 +46004,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &2023042885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023042881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &2023042886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023042881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2023882831
 GameObject:
   m_ObjectHideFlags: 0
@@ -44044,6 +46219,8 @@ GameObject:
   - component: {fileID: 2061745830}
   - component: {fileID: 2061745831}
   - component: {fileID: 2061745832}
+  - component: {fileID: 2061745834}
+  - component: {fileID: 2061745833}
   m_Layer: 0
   m_Name: Buildings
   m_TagString: Untagged
@@ -44576,6 +46753,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShopUI: {fileID: 1839261725}
   Player: {fileID: 2114759551}
+--- !u!114 &2061745833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061745826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -939433605
+      Data2: 1258501359
+      Data3: -235590006
+      Data4: -297011113
+    Path: event:/Actions/shopDoorClose
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &2061745834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061745826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -411328175
+      Data2: 1183035671
+      Data3: 1371985821
+      Data4: 1579232033
+    Path: event:/Actions/shopDoorOpen
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2063696209
 GameObject:
   m_ObjectHideFlags: 0
@@ -44832,6 +47069,8 @@ GameObject:
   - component: {fileID: 2095224520}
   - component: {fileID: 2095224522}
   - component: {fileID: 2095224521}
+  - component: {fileID: 2095224524}
+  - component: {fileID: 2095224523}
   m_Layer: 0
   m_Name: Vegetable (10)
   m_TagString: Untagged
@@ -44898,6 +47137,66 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!114 &2095224523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095224519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1903684327
+      Data2: 1078741426
+      Data3: -410414965
+      Data4: 1008417693
+    Path: event:/Veggies/veggiePlant
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &2095224524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095224519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1566758545
+      Data2: 1087538999
+      Data3: 1947604895
+      Data4: 2066935130
+    Path: event:/Veggies/plantFinishedPop
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &2097694430 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2592043150908172543, guid: 5bf343c387bf9474284b9469805d3ed9, type: 3}

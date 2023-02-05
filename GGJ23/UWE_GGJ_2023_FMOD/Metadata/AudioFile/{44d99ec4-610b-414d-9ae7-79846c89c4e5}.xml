@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{44d99ec4-610b-414d-9ae7-79846c89c4e5}">
+		<property name="assetPath">
+			<value>ACTION_doorOpening04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.84089583333333329</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d6198b41-eaa1-4950-bbf8-908bf8003c9c}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0f102a60-64c5-4fdc-a8a7-a6cf01de9d5c}">
+		<property name="assetPath">
+			<value>UPGRADE_sawSound02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.7142857142857143</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d6198b41-eaa1-4950-bbf8-908bf8003c9c}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -10,7 +10,7 @@ public class SwitchingTabs : MonoBehaviour
     public GameObject BuyActiveTABS;
     public GameObject SellActiveTABS;
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +30,9 @@ public class SwitchingTabs : MonoBehaviour
 
         SellActiveTABS.SetActive(false);
         BuyActiveTABS.SetActive(true);
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/switchTabs");
+
     }
 
     public void SellSelected()
@@ -39,6 +42,8 @@ public class SwitchingTabs : MonoBehaviour
 
         SellActiveTABS.SetActive(true);
         BuyActiveTABS.SetActive(false);
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/switchTabs");
 
     }
 }

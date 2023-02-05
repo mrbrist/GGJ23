@@ -14,7 +14,7 @@ public class PlayerMoney : MonoBehaviour
     private int seedCost = 30;
 
     public GameObject FarmUpgradeButton;
-    private int farmUpgradeCost = 50;
+    private int farmUpgradeCost = 70;
 
     public GameObject ShopUpgradeButton;
     private int ShopUpgradeCost = 50;

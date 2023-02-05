@@ -4163,7 +4163,7 @@ Transform:
   m_GameObject: {fileID: 960950522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1899843199}
@@ -4210,7 +4210,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2097412995, guid: a97f379ac090ecf4ca7a8d8a3569f97d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e85389470fab063458bb255f30fae3c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19297,11 +19297,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rb: {fileID: 1899843200}
-  PlayerSprite: {fileID: 0}
-  playerUp: {fileID: 0}
-  playerLeft: {fileID: 0}
-  playerRight: {fileID: 0}
-  playerDown: {fileID: 0}
+  PlayerSprite: {fileID: 960950524}
+  playerUp: {fileID: 21300000, guid: 50afb04908c674e45b6f690568af74a9, type: 3}
+  playerLeft: {fileID: 21300000, guid: 6b414fe6a584e5e46909a1e139a5f161, type: 3}
+  playerRight: {fileID: 21300000, guid: f16735813aa8ef84881f78352093d050, type: 3}
+  playerDown: {fileID: 21300000, guid: e85389470fab063458bb255f30fae3c9, type: 3}
 --- !u!4 &1899843199
 Transform:
   m_ObjectHideFlags: 0

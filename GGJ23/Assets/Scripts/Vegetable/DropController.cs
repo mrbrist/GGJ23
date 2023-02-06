@@ -24,9 +24,9 @@ public class DropController : MonoBehaviour
             var step = speed * Time.deltaTime; // calculate distance to move
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, step);
 
-            if (Vector3.Distance(transform.position, target.transform.position) < 0.001f)
+            if (Vector3.Distance(transform.position, target.transform.position) < 0.0005f)
             {
-                target.GetComponent<PlayerStats>().money += worth;
+                target.GetComponent<PlayerStats>().AddMoney(worth);
                 Destroy(gameObject);
 
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Player/pickUpItem");

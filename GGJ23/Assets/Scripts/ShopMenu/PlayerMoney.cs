@@ -46,9 +46,9 @@ public class PlayerMoney : MonoBehaviour
 
     public void PurchaseSeedOne(int id)
     {
-        if(playerMoney.money >= veg[id].seedCost)
+        if(playerMoney.targetMoney >= veg[id].seedCost)
         {
-            playerMoney.money -= veg[id].seedCost;
+            playerMoney.RemoveMoney(veg[id].seedCost);
             Debug.Log(veg[id].seedCost);
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/buySeeds");
@@ -57,7 +57,7 @@ public class PlayerMoney : MonoBehaviour
 
     public void BtnInteractable(int id)
     {
-        if (playerMoney.money < veg[id].seedCost)
+        if (playerMoney.targetMoney < veg[id].seedCost)
         {
             buyButton[id].interactable = false;
         }
@@ -70,7 +70,7 @@ public class PlayerMoney : MonoBehaviour
     public void Buttons()
     {
         // set buttons uninteractable when player doesnt have enough money
-        if (playerMoney.money < veg[0].seedCost)
+        if (playerMoney.targetMoney < veg[0].seedCost)
         {
             buyButton[0].interactable = false;
         }
@@ -79,7 +79,7 @@ public class PlayerMoney : MonoBehaviour
             buyButton[0].interactable = true;
         }
 
-        if (playerMoney.money < veg[1].seedCost)
+        if (playerMoney.targetMoney < veg[1].seedCost)
         {
             buyButton[1].interactable = false;
         }
@@ -88,7 +88,7 @@ public class PlayerMoney : MonoBehaviour
             buyButton[1].interactable = true;
         }
 
-        if (playerMoney.money < veg[2].seedCost)
+        if (playerMoney.targetMoney < veg[2].seedCost)
         {
             buyButton[2].interactable = false;
         }
@@ -97,7 +97,7 @@ public class PlayerMoney : MonoBehaviour
             buyButton[2].interactable = true;
         }
 
-        if (playerMoney.money < veg[3].seedCost)
+        if (playerMoney.targetMoney < veg[3].seedCost)
         {
             buyButton[3].interactable = false;
         }
@@ -109,9 +109,9 @@ public class PlayerMoney : MonoBehaviour
 
     public void PurchaseFarmUpgrade()
     {
-        if(playerMoney.money >= farmUpgradeCost)
+        if(playerMoney.targetMoney >= farmUpgradeCost)
         {
-            playerMoney.money -= farmUpgradeCost;
+            playerMoney.RemoveMoney(farmUpgradeCost);
             FarmUpgradeButton.GetComponent<Button>().interactable = false;
 
             farmArea2.SetActive(false);
@@ -122,9 +122,9 @@ public class PlayerMoney : MonoBehaviour
 
     public void PurchaseShopUpgrade()
     {
-        if (playerMoney.money >= ShopUpgradeCost)
+        if (playerMoney.targetMoney >= ShopUpgradeCost)
         {
-            playerMoney.money -= ShopUpgradeCost;
+            playerMoney.RemoveMoney(ShopUpgradeCost);
             ShopUpgradeButton.GetComponent<Button>().interactable = false;
         }
     }

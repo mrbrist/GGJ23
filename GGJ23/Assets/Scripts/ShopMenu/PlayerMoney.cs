@@ -24,6 +24,10 @@ public class PlayerMoney : MonoBehaviour
     private int ShopUpgradeCost = 50;
 
     public GameObject farmArea2;
+    public GameObject farmArea3;
+
+    public GameObject UIFarm1;
+    public GameObject UIFarm2;
 
     public Button[] buyButton;
 
@@ -42,6 +46,7 @@ public class PlayerMoney : MonoBehaviour
         constGemTxt.text = money.ToString();
 
         Buttons();
+
     }
 
     public void PurchaseSeedOne(int id)
@@ -107,14 +112,37 @@ public class PlayerMoney : MonoBehaviour
         }
     }
 
-    public void PurchaseFarmUpgrade()
+    public void PurchaseFarmUpgrade1()
     {
         if(playerMoney.targetMoney >= farmUpgradeCost)
         {
             playerMoney.RemoveMoney(farmUpgradeCost);
             FarmUpgradeButton.GetComponent<Button>().interactable = false;
 
+            farmUpgradeCost = 500;
+
             farmArea2.SetActive(false);
+
+            UIFarm1.SetActive(false);
+            UIFarm2.SetActive(true);
+
+
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/buyUpgrades");
+        }
+    }
+
+    public void PurchaseFarmUpgrade2()
+    {
+        if (playerMoney.targetMoney >= farmUpgradeCost)
+        {
+            playerMoney.RemoveMoney(farmUpgradeCost);
+            FarmUpgradeButton.GetComponent<Button>().interactable = false;
+
+            farmArea3.SetActive(false);
+
+            UIFarm1.SetActive(false);
+            UIFarm2.SetActive(false);
+
 
             FMODUnity.RuntimeManager.PlayOneShot("event:/Actions/buyUpgrades");
         }

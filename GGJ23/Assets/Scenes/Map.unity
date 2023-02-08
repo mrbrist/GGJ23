@@ -50084,6 +50084,7 @@ Transform:
   - {fileID: 766364018}
   - {fileID: 1020531267}
   - {fileID: 1261896135}
+  - {fileID: 1676745152}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52278,6 +52279,75 @@ MonoBehaviour:
   emptyPlot: {fileID: -1690804318, guid: c9f66dd03d48ad34685aaf31b3c48455, type: 3}
   playerDistance: 0
   interactable: 0
+--- !u!1 &1676745151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676745152}
+  - component: {fileID: 1676745153}
+  m_Layer: 0
+  m_Name: FishingPond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1676745152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676745151}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2094543569}
+  m_Father: {fileID: 1616786491}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1676745153
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676745151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 6.01949, y: -3.5949826}
+  - {x: 5.829767, y: -3.6162853}
+  - {x: 5.5190682, y: -3.968517}
+  - {x: 5.0455794, y: -4.58752}
+  - {x: 4.0225706, y: -4.55603}
+  - {x: 2.5542407, y: -3.0813046}
+  - {x: 3.5207403, y: -2.2052908}
+  - {x: 3.5454488, y: -1.0165007}
+  - {x: 3.9994798, y: -0.40296936}
+  - {x: 5.2200584, y: -0.35471004}
+  - {x: 5.970403, y: 0.548637}
+  - {x: 7.9116497, y: 0.56073177}
+  - {x: 8.481532, y: 0.04736978}
+  - {x: 8.448321, y: -3.2847183}
+  - {x: 8.104662, y: -3.5500102}
+  - {x: 6.019839, y: -3.5891285}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!114 &1689956096 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2592043150908172543, guid: 5bf343c387bf9474284b9469805d3ed9, type: 3}
@@ -57898,6 +57968,76 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2094543568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094543569}
+  - component: {fileID: 2094543570}
+  m_Layer: 0
+  m_Name: FishingTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094543569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094543568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1676745152}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &2094543570
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094543568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 7.9762554, y: -3.9949055}
+  - {x: 6.6153297, y: -4.0019255}
+  - {x: 6.3331966, y: -4.4684205}
+  - {x: 6.0025377, y: -5.030292}
+  - {x: 3.0513294, y: -5.0416503}
+  - {x: 1.9974947, y: -4.034615}
+  - {x: 1.997205, y: -3.0527387}
+  - {x: 2.0210295, y: -2.0338955}
+  - {x: 2.9741302, y: -0.98793495}
+  - {x: 2.9853897, y: -0.003046453}
+  - {x: 4.006007, y: 1.3878112}
+  - {x: 6.0003467, y: 1.4643521}
+  - {x: 8.036936, y: 1.4533923}
+  - {x: 9.029656, y: 0.12567335}
+  - {x: 9.027768, y: -2.8932004}
+  - {x: 9.012983, y: -3.5186887}
+  - {x: 8.9989, y: -4.008173}
+  - {x: 7.990887, y: -4.003334}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &2095224519
 GameObject:
   m_ObjectHideFlags: 0

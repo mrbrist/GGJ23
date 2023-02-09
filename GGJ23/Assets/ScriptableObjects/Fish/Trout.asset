@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14876da93e536d24e9acd90c12f54b44, type: 3}
+  m_Name: Trout
+  m_EditorClassIdentifier: 
+  name: Trout
+  finalProduct: {fileID: -1168807733, guid: 2e8793605e5d71441b82b010a2012e4b, type: 3}
+  fishSprites:
+  - {fileID: 292463722, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 1213451784, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: -1589740089, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 1298681881, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: -1612026349, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 1530312232, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 871188571, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 341445656, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 1189853972, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: -131852695, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 249844029, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 1467144913, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: -1836025102, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 462618797, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  - {fileID: 2058541042, guid: fdc2aed093bb3664ba9d65209086c608, type: 3}
+  worthPer: 20
+  isFishing: 0
+  fishingStage: 0
+  fishingTime: 4
+  maxSize: 4
+  stackable: 1

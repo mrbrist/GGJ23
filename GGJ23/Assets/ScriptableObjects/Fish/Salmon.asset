@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fbe3bcfb2aece5429a8b16ad89f9438, type: 3}
-  m_Name: Trout
+  m_Name: Salmon
   m_EditorClassIdentifier: 
-  name: Trout
-  fish: {fileID: 1826572799, guid: 2e8793605e5d71441b82b010a2012e4b, type: 3}
-  worthPer: 10
+  name: Salmon
+  fish: {fileID: -832203682, guid: 2e8793605e5d71441b82b010a2012e4b, type: 3}
+  worthPer: 20
